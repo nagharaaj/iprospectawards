@@ -43,7 +43,7 @@ body {
 	background: url('../img/ipg/home-spritemap.png') -20px -115px no-repeat;
 }
 
-#container #header ul#navigation li.home:hover a {
+#container #header ul#navigation li.home-current a, #container #header ul#navigation li.home:hover a {
 	background: url('../img/ipg/home-spritemap.png') -20px -32px no-repeat;
 }
 
@@ -51,7 +51,7 @@ body {
 	background: url('../img/ipg/home-spritemap.png') -175px -115px no-repeat;
 }
 
-#container #header ul#navigation li.message:hover a {
+#container #header ul#navigation li.message-current a, #container #header ul#navigation li.message:hover a {
 	background: url('../img/ipg/home-spritemap.png') -175px -32px no-repeat;
 }
 
@@ -136,4 +136,8 @@ body {
 	display: block;
 	width: 150px;
 	height: 85px;
+}
+
+div.center {
+	text-align: center;
 }

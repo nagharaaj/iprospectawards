@@ -1,3 +1,6 @@
 2012-11-08 22:13:59 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-11-09 00:38:40 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
