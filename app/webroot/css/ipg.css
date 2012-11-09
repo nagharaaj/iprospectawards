@@ -1,0 +1,139 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('../img/ipg/background.png');
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto -144px auto;
+	padding: 0;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+#container #header ul#navigation {
+	list-style-type: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#container #header ul#navigation li a {
+	display: block;
+	width: 160px;
+	height: 60px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#container #header ul#navigation li span {
+	display: none;
+}
+
+#container #header ul#navigation li.home a {
+	background: url('../img/ipg/home-spritemap.png') -20px -115px no-repeat;
+}
+
+#container #header ul#navigation li.home:hover a {
+	background: url('../img/ipg/home-spritemap.png') -20px -32px no-repeat;
+}
+
+#container #header ul#navigation li.message a {
+	background: url('../img/ipg/home-spritemap.png') -175px -115px no-repeat;
+}
+
+#container #header ul#navigation li.message:hover a {
+	background: url('../img/ipg/home-spritemap.png') -175px -32px no-repeat;
+}
+
+#container #header ul#navigation li.categories a {
+	background: url('../img/ipg/home-spritemap.png') -335px -115px no-repeat;
+}
+
+#container #header ul#navigation li.categories:hover a {
+	background: url('../img/ipg/home-spritemap.png') -335px -32px no-repeat;
+}
+
+#container #header ul#navigation li.judging a {
+	background: url('../img/ipg/home-spritemap.png') -500px -115px no-repeat;
+}
+
+#container #header ul#navigation li.judging:hover a {
+	background: url('../img/ipg/home-spritemap.png') -500px -32px no-repeat;
+}
+
+#container #header ul#navigation li.awards a {
+	background: url('../img/ipg/home-spritemap.png') -660px -115px no-repeat;
+}
+
+#container #header ul#navigation li.awards:hover a {
+	background: url('../img/ipg/home-spritemap.png') -660px -32px no-repeat;
+}
+
+#container #header ul#navigation li.submission-form a {
+	background: url('../img/ipg/home-spritemap.png') -820px -115px no-repeat;
+	width: 200px;
+}
+
+#container #header ul#navigation li.submission-form:hover a {
+	background: url('../img/ipg/home-spritemap.png') -820px -32px no-repeat;
+}
+
+#content {
+	clear: left;
+}
+
+#footer, #push {
+	height: 144px;
+}
+
+#footer {
+	background: url('../img/ipg/footer-bg.png') repeat-x;
+}
+
+#content #main-image-wrapper {
+	padding-top: 100px;
+}
+
+#content #main-image {
+	width: 1000px;
+	text-align: center;
+	background: url('../img/ipg/home-spritemap.png') -20px -185px no-repeat;
+	height: 350px;
+}
+
+#footer .wrapper {
+	margin: 0 auto 0 auto;
+	width: 1000px;
+}
+
+#footer .wrapper .left {
+	float: left;
+}
+
+#footer .wrapper .left #footer-logo {
+	background: url('../img/ipg/home-spritemap.png') -75px -550px no-repeat;
+	width: 300px;
+	height: 125px;
+	display: block;
+}
+
+#footer .wrapper .right {
+	float: right;
+}
+
+#footer .wrapper .right #footer-button {
+	background: url('../img/ipg/home-spritemap.png') -485px -590px no-repeat;
+	display: block;
+	width: 150px;
+	height: 85px;
+}
