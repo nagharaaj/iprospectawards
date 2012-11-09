@@ -4,3 +4,47 @@
 2012-11-09 00:38:40 Error: [MissingControllerException] Controller class CategoriesController could not be found.
 #0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-11-09 02:29:08 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cake/app/Controller/AppController.php, line 35]
+2012-11-09 02:29:08 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-09 02:29:09 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cake/app/Controller/AppController.php, line 35]
+2012-11-09 02:29:09 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-09 02:29:09 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cake/app/Controller/AppController.php, line 35]
+2012-11-09 02:29:09 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-09 02:29:10 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/cake/app/Controller/AppController.php, line 35]
+2012-11-09 02:29:10 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 35, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-09 02:35:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-09 02:35:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-09 02:37:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-09 02:38:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

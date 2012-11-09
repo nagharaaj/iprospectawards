@@ -1,0 +1,1 @@
+<div class="center"><img src="../img/ipg/awards-sprite.png" /></div>
