@@ -60,13 +60,14 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => '',
-		'database' => 'ipg',
-		'prefix' => '',
+		'datasource' => 'DummySource'
+		//'datasource' => 'Database/Mysql',
+		//'persistent' => false,
+		//'host' => 'localhost',
+		//'login' => 'root',
+		//'password' => '',
+		//'database' => 'ipg',
+		//'prefix' => '',
 		//'encoding' => 'utf8',
 	);
 }
