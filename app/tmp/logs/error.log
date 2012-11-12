@@ -48,3 +48,259 @@
 2012-11-09 02:38:35 Error: [MissingControllerException] Controller class CssController could not be found.
 #0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-11-11 15:52:57 Error: [MissingViewException] View file "/var/www/cake/app/View/Submission/index.ctp" is missing.
+#0 /var/www/cake/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 16:44:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:44:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:44:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:44:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:45:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:45:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:45:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:45:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:46:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:46:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:46:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:46:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:47:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:47:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:47:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:47:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:48:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:48:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:48:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:48:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:48:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:48:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:49:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:49:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:50:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:50:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:50:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:50:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:51:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:51:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:53:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:53:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:53:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:53:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:54:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:54:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:54:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:54:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:55:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:56:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:56:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:57:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:57:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:57:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:57:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:58:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:58:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:58:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:58:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:59:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:59:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:59:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 16:59:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 17:01:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 17:01:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 17:04:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 17:04:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 17:56:20 Error: Fatal Error (1): Call to a member function body() on a non-object in [/var/www/cake/lib/Cake/Controller/Controller.php, line 956]
+2012-11-11 17:56:20 Error: [FatalErrorException] Call to a member function body() on a non-object
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/l...', 956)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/l...', 956, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/l...', 956, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 18:02:34 Error: [MissingTableException] Table submissions for model Submission was not found in datasource default.
+#0 /var/www/cake/lib/Cake/Model/Model.php(3192): Model->setSource('submissions')
+#1 /var/www/cake/lib/Cake/Model/Model.php(1312): Model->getDataSource()
+#2 /var/www/cake/lib/Cake/Model/Model.php(1189): Model->schema()
+#3 /var/www/cake/lib/Cake/Model/Model.php(1152): Model->_setAliasData(Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(1627): Model->set(Array)
+#5 /var/www/cake/app/Controller/SubmissionController.php(13): Model->save(Array)
+#6 [internal function]: SubmissionController->index()
+#7 /var/www/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SubmissionController), Array)
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-11 20:07:16 Error: [MissingActionException] Action SubmissionController::index() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 20:07:31 Error: [MissingActionException] Action SubmissionController::index() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 20:17:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 20:18:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

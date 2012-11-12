@@ -24,7 +24,7 @@
 				<li class="categories<?php echo ($currentPage == 'categories'?'-current':''); ?>"><a href="/categories"><span>Categories</span></a></li>
 				<li class="judging<?php echo ($currentPage == 'judging'?'-current':''); ?>"><a href="/judging"><span>Judging</span></a></li>
 				<li class="awards<?php echo ($currentPage == 'awards'?'-current':''); ?>"><a href="/awards"><span>Awards</span></a></li>
-				<li class="submission-form<?php echo ($currentPage == 'form'?'-current':''); ?>"><a href="#"><span>Submission Form</span></a></li>
+				<li class="submission-form<?php echo ($currentPage == 'submission'?'-current':''); ?>"><a href="/submission"><span>Submission Form</span></a></li>
 			</ul>
 		</div>
 		<div id="content">
