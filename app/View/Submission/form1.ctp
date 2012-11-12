@@ -1,3 +1,6 @@
+<script type="text/javascript">
+	$(['../../img/ipg/pioneering-popup.png','../../img/ipg/ambitiously-popup.png','../../img/ipg/digital-popup.png','../../img/ipg/cultivating-popup.png']).preload();
+</script>
 <div class="submission-form">
 	<?php echo $this->element($header); ?>
 	<?php echo $this->Form->create('Submission', array('url' => '/submission/form1/'.$header, 'type' => 'file')); ?>
@@ -17,20 +20,20 @@
 		<p>Service Line Used <span class="small">(Check all that apply)</span></p>
 		<div id="checkboxes">
 			<div class="left">
-				<p><?php echo $this->Form->checkbox('seo', array('value' => 1, 'hiddenField' => false)); ?> SEO</p>
-				<p><?php echo $this->Form->checkbox('ppc_sem_sea', array('value' => 1, 'hiddenField' => false)); ?> PPC/SEM/SEA</p>
-				<p><?php echo $this->Form->checkbox('mobile', array('value' => 1, 'hiddenField' => false)); ?> Mobile</p>
-				<p><?php echo $this->Form->checkbox('video', array('value' => 1, 'hiddenField' => false)); ?> Video</p>
-				<p><?php echo $this->Form->checkbox('structured_data', array('value' => 1, 'hiddenField' => false)); ?> Structured Data</p>
-				<p><?php echo $this->Form->checkbox('social_platform_management', array('value' => 1, 'hiddenField' => false)); ?> Social Platform Management</p>				
+				<p><?php echo $this->Form->checkbox('seo', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionSeo">SEO</label></p>
+				<p><?php echo $this->Form->checkbox('ppc_sem_sea', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionPpcSemSea">PPC/SEM/SEA</label></p>
+				<p><?php echo $this->Form->checkbox('mobile', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionMobile">Mobile</label></p>
+				<p><?php echo $this->Form->checkbox('video', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionVideo">Video</label></p>
+				<p><?php echo $this->Form->checkbox('structured_data', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionStructuredData">Structured Data</label></p>
+				<p><?php echo $this->Form->checkbox('social_platform_management', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionSocialPlatformManagement">Social Platform Management</label></p>				
 			</div>
 			<div class="left">
-				<p><?php echo $this->Form->checkbox('display_advertising', array('value' => 1, 'hiddenField' => false)); ?> Display Advertising</p>
-				<p><?php echo $this->Form->checkbox('analytics_and_analysis', array('value' => 1, 'hiddenField' => false)); ?> Analytics and Analysis</p>
-				<p><?php echo $this->Form->checkbox('content_generation', array('value' => 1, 'hiddenField' => false)); ?> Content Generation</p>
-				<p><?php echo $this->Form->checkbox('affiliate_program_management', array('value' => 1, 'hiddenField' => false)); ?> Affiliate Program Management</p>
-				<p><?php echo $this->Form->checkbox('conversion_optimization', array('value' => 1, 'hiddenField' => false)); ?> Conversion Optimization</p>
-				<p><?php echo $this->Form->checkbox('other', array('value' => 1, 'hiddenField' => false)); ?> Other <?php echo $this->Form->input('other_text', array('label' => false, 'div' => false, 'error' => false)); ?><p class="other-error"><?php echo $this->Form->error('other_text', null, array('wrap' => false)); ?></p></p>				
+				<p><?php echo $this->Form->checkbox('display_advertising', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionDisplayAdvertising">Display Advertising</label></p>
+				<p><?php echo $this->Form->checkbox('analytics_and_analysis', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionAnalyticsAndAnalysis">Analytics and Analysis</label></p>
+				<p><?php echo $this->Form->checkbox('content_generation', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionContentGeneration">Content Generation</label></p>
+				<p><?php echo $this->Form->checkbox('affiliate_program_management', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionAffiliateProgramManagement">Affiliate Program Management</label></p>
+				<p><?php echo $this->Form->checkbox('conversion_optimization', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionConversionOptimization">Conversion Optimization</label></p>
+				<p><?php echo $this->Form->checkbox('other', array('value' => 1, 'hiddenField' => false)); ?> <label for="SubmissionOther">Other</label> <?php echo $this->Form->input('other_text', array('label' => false, 'div' => false, 'error' => false)); ?><p class="other-error"><?php echo $this->Form->error('other_text', null, array('wrap' => false)); ?></p></p>				
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -57,22 +60,22 @@
 		<?php endif; ?>
 		<div id="word-submission-container">
 			<div class="overall-container">
-				<p>Overall Summary <span class="arial font-10">(brief summarization of the featured submission)</span></p>
+				<p class="textarea-label">Overall Summary <span class="arial font-10">(brief summarization of the featured submission)</span></p>
 				<?php echo $this->Form->textarea('overall_summary', array('error' => false)); ?>
 				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
 			</div>
 			<div class="challenge-container">
-				<p>Challenge/Objective <span class="arial font-10">(what were you trying to achieve for the client or what obstacle did they need you to overcome)</span></p>
+				<p class="textarea-label">Challenge/Objective <span class="arial font-10">(what were you trying to achieve for the client or what obstacle did they need you to overcome)</span></p>
 				<?php echo $this->Form->textarea('challenge', array('error' => false)); ?>
 				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
 			</div>
 			<div class="strategy-container">
-				<p>Strategy/Tactics <span class="arial font-10">(share more than just the services employed...share your strategic process)</span></p>
+				<p class="textarea-label">Strategy/Tactics <span class="arial font-10">(share more than just the services employed...share your strategic process)</span></p>
 				<?php echo $this->Form->textarea('strategy', array('error' => false)); ?>
 				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
 			</div>
 			<div class="result-container">
-				<p>Results/Solutions <span class="arial font-10">(what success did you bring to your client)</span></p>
+				<p class="textarea-label">Results/Solutions <span class="arial font-10">(what success did you bring to your client)</span></p>
 				<?php echo $this->Form->textarea('results', array('error' => false)); ?>
 				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
 			</div>

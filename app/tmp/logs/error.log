@@ -392,3 +392,36 @@
 2012-11-11 23:12:42 Error: [MissingControllerException] Controller class .well-knownController could not be found.
 #0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-11-12 00:19:02 Error: [MissingActionException] Action SubmissionController::index() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-12 00:23:05 Error: [MissingActionException] Action SubmissionController::index() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-12 00:31:26 Error: [MissingActionException] Action SubmissionController::index() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-12 00:31:27 Error: [MissingActionException] Action SubmissionController::index() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-12 01:07:03 Error: [MissingActionException] Action SubmissionController::img() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-12 01:10:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-12 01:26:29 Error: [MissingActionException] Action SubmissionController::form2() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

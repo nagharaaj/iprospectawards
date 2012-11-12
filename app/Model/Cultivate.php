@@ -1,6 +1,6 @@
 <?php
 
-class Submission extends AppModel {
+class Cultivate extends AppModel {
 	
 	public $useTable = false;
 	
@@ -29,51 +29,39 @@ class Submission extends AppModel {
             'rule'    => array('minLength', '1'),
             'message' => 'Country is required'
         ),
-        'client_name' => array(
+        'who' => array(
 			'allowEmpty' => false,
 			'required' => true,
             'rule'    => array('minLength', '1'),
-            'message' => 'Client name is required'
+            'message' => 'Who you are submitting this for is required'
+        ),
+        'their_email' => array(
+			'allowEmpty' => false,
+			'required' => true,
+            'rule'    => array('minLength', '1'),
+            'message' => 'Their Email Address is required'
+        ),
+        'their_country' => array(
+			'allowEmpty' => false,
+			'required' => true,
+            'rule'    => array('minLength', '1'),
+            'message' => 'Their country is required'
         ),
         'files_submission' => array(
             'message' => 'You must submit at least one file'
         )
     );
     
-    public $other = array(
-    	'other_text' => array(
-			'allowEmpty' => false,
-			'required' => true,
-            'rule'    => array('minLength', '1'),
-            'message' => 'Text required when "other" is selected'
-        )
-    );
-    
     public function beforeValidate()
-    {
-    	if (!empty($this->data[$this->name][strtolower($this->name)]['other']))
-    	{
-    		$this->validate = array_merge($this->validate, $this->other);
-    	}
-    	
+    {    	
     	if (
-    		empty($this->data[$this->name]['overall_summary']) && 
-    		empty($this->data[$this->name]['challenge']) &&
-    		empty($this->data[$this->name]['strategy']) &&
-    		empty($this->data[$this->name]['results']) 
+    		empty($this->data[$this->name]['driving']) && 
+    		empty($this->data[$this->name]['examples']) &&
+    		empty($this->data[$this->name]['attitude'])
     	)
     	{
     		$this->invalidate('word_submission', 'You must fill out at least one word submission');
-    	}
-    	
-    	if(
-	    	empty($this->data[$this->name]['storyboard']['tmp_name']) && 
-	    	empty($this->data[$this->name]['ppt']['tmp_name']) && 
-	    	empty($this->data[$this->name]['video']['tmp_name'])
-	    )
-	    {
-	        $this->invalidate('files_submission', $this->validate['files_submission']['message']);
-	    }
+    	}    	
     	
     	return true;
     }

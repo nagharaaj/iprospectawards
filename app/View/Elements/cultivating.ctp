@@ -1,2 +1,2 @@
 <h1 class="white grey-shadow dirty-headline">Cultivating Culture</h1>
-<p class="submission-popup-container"><a href="#" class="cultivating"></a></p>
+<p class="submission-popup-container"><a class="cultivating" href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../../img/ipg/cultivating-popup.png /></a>'});"></a></p>

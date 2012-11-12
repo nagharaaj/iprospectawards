@@ -1,0 +1,1 @@
+<h1 class="center green thank-you squeaky-chalk-sound">Thank you for your submission.</h1>

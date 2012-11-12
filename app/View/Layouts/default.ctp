@@ -12,6 +12,7 @@
 		echo $this->Html->css('fancybox2/jquery.fancybox');
 		echo $this->Html->script('jquery-1.8.2.min');
 		echo $this->Html->script('jquery.fancybox.pack');
+		echo $this->Html->script('preload');
 	?>
 	
 </head>
@@ -36,8 +37,8 @@
 	</div>
 	<div id="footer">
 		<div class="wrapper">
-			<div class="left"><a id="footer-logo" href="#"></a></div>
-			<div class="right"><a id="footer-button" href="#"></a></div>
+			<div class="left"><a id="footer-logo" href="/"></a></div>
+			<div class="right"><a id="footer-button" href="/submission"></a></div>
 		</div>
 	</div>
 </body>

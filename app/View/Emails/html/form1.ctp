@@ -9,7 +9,7 @@
 <?php echo $data['Submission']['team_name']; ?></p>
 <?php endif; ?>
 
-<p><strong>E-mail Address:</strong><br />
+<p><strong>Email Address:</strong><br />
 <?php echo $data['Submission']['email_address']; ?></p>
 
 <p><strong>Country:</strong><br />

@@ -6,11 +6,16 @@ App::import('Vendor', 'Uploader.Uploader');
 
 class SubmissionController extends AppController
 {
-	public $uses = array('Submission');
+	public $uses = array('Submission', 'Cultivate');
 	
 	public function beforeRender()
 	{
 		$this->set('currentPage', 'submission');
+	}
+	
+	public function index()
+	{
+		
 	}
 	
 	public function form1($header)
@@ -31,10 +36,44 @@ class SubmissionController extends AppController
 					    ->to('peters.robert.j@gmail.com')
 					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
 					    ->send();
+					    
+					$this->redirect(array('action' => 'success'));
 				}
 			}
 		}
 		
 		$this->set('header', $header);
+	}
+	
+	public function form2($header)
+	{
+		if ($this->request->is('post'))
+		{
+			$this->Uploader = new Uploader();
+			$this->Uploader->setup(array('tempDir' => TMP));
+			
+			if ($this->Cultivate->save($this->request->data))
+			{
+				if ($data = $this->Uploader->uploadAll())
+				{
+					$email = new CakeEmail();
+					$email->viewVars(array('title_for_layout' => 'IPG Submission', 'type' => $header, 'data' => $this->data, 'uploadData' => $data));
+					$email->template('form2', 'default')
+					    ->emailFormat('html')
+					    ->to('peters.robert.j@gmail.com')
+					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
+					    ->send();
+					
+					$this->redirect(array('action' => 'success'));
+				}
+			}
+		}
+		
+		$this->set('header', $header);
+	}
+	
+	public function success()
+	{
+		
 	}
 }

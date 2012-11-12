@@ -1,2 +1,2 @@
 <h1 class="white blue-shadow dirty-headline">Ambitiously Driving the Aegis Operating Model</h1>
-<p class="submission-popup-container"><a href="#" class="ambitiously"></a></p>
+<p class="submission-popup-container"><a class="ambitiously" href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../../img/ipg/ambitiously-popup.png /></a>'});"></a></p>
