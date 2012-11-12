@@ -35,6 +35,7 @@ class SubmissionController extends AppController
 					    ->emailFormat('html')
 					    ->to('peters.robert.j@gmail.com')
 					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
+					    ->subject('IPG Award Submission')
 					    ->send();
 					    
 					$this->redirect(array('action' => 'success'));
@@ -62,6 +63,7 @@ class SubmissionController extends AppController
 					    ->emailFormat('html')
 					    ->to('peters.robert.j@gmail.com')
 					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
+					    ->subject('IPG Award Submission')
 					    ->send();
 					
 					$this->redirect(array('action' => 'success'));
