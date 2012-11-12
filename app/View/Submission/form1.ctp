@@ -103,12 +103,12 @@
 <script type="text/javascript">
 var $limitWords = 150;
 
-$("#submissionOverallSummary, #submissionChallenge, #submissionStrategy, #submissionResults").each(function(e) {
+$("#SubmissionOverallSummary, #SubmissionChallenge, #SubmissionStrategy, #SubmissionResults").each(function(e) {
 	$this = $(this);
 	wordCount($this);
 });
 
-$("#submissionOverallSummary, #submissionChallenge, #submissionStrategy, #submissionResults").keyup(function(e) {
+$("#SubmissionOverallSummary, #SubmissionChallenge, #SubmissionStrategy, #SubmissionResults").keyup(function(e) {
     $this = $(this);
 	wordCount($this);    
 });

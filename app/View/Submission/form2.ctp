@@ -62,12 +62,12 @@
 <script type="text/javascript">
 var $limitWords = 150;
 
-$("#cultivateOverallSummary, #cultivateChallenge, #cultivateStrategy, #cultivateResults").each(function(e) {
+$("#CultivateDriving, #CultivateExamples, #CultivateAttitude").each(function(e) {
 	$this = $(this);
 	wordCount($this);
 });
 
-$("#cultivateOverallSummary, #cultivateChallenge, #cultivateStrategy, #cultivateResults").keyup(function(e) {
+$("#CultivateDriving, #CultivateExamples, #CultivateAttitude").keyup(function(e) {
     $this = $(this);
 	wordCount($this);    
 });
