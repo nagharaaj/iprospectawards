@@ -30,7 +30,7 @@
 <?php echo ((isset($data['Submission']['content_generation']) && !empty($data['Submission']['content_generation']))?'Content Generation<br />':''); ?>
 <?php echo ((isset($data['Submission']['affiliate_program_management']) && !empty($data['Submission']['affiliate_program_management']))?'Affiliate Program Management<br />':''); ?>
 <?php echo ((isset($data['Submission']['conversion_optimization']) && !empty($data['Submission']['conversion_optimization']))?'Conversion Optimization<br />':''); ?>
-<?php echo ((isset($data['Submission']['other']) && !empty($data['Submission']['seo']))?'Other: ':''); ?><?php echo ((isset($data['Submission']['other_text']) && !empty($data['Submission']['other_text']))?$data['Submission']['other_text'].'<br />':''); ?>
+<?php echo ((isset($data['Submission']['other']) && !empty($data['Submission']['other']))?'Other: ':''); ?><?php echo ((isset($data['Submission']['other_text']) && !empty($data['Submission']['other_text']))?$data['Submission']['other_text'].'<br />':''); ?>
 </p>
 
 <?php if (!empty($data['Submission']['overall_summary'])): ?>
