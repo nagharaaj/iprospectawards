@@ -1,7 +1,7 @@
 <div class="submission-form">
-	<h1 class="white orange-shadow dirty-headline">Pioneering Solutions that Drive Industry Leading Results</h1>
-	<?php echo $this->Form->create('submission', array('url' => '/submission/form1')); ?>
-	<p class="solid-sep"><img src="../img/ipg/solid_sep.png" /></p>
+	<?php echo $this->element($header); ?>
+	<?php echo $this->Form->create('Submission', array('url' => '/submission/form1/'.$header, 'type' => 'file')); ?>
+	<p class="solid-sep"><img src="../../img/ipg/solid_sep.png" /></p>
 	<h2>About You:</h2>
 	<div id="form-top">
 		<?php echo $this->Form->input('first_name', array('label' => 'First Name:')); ?>
@@ -10,7 +10,7 @@
 		<?php echo $this->Form->input('email_address', array('label' => 'Email Address:')); ?>
 		<?php echo $this->Form->input('country', array('label' => 'Country:')); ?>
 	</div>
-	<p class="dashed-sep"><img src="../img/ipg/dashed_sep.png" /></p>
+	<p class="dashed-sep"><img src="../../img/ipg/dashed_sep.png" /></p>
 	<h2>About the Submission</h2>
 	<div id="form-middle">
 		<?php echo $this->Form->input('client_name', array('label' => 'Client Name')); ?>
@@ -34,7 +34,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		<p class="dashed-sep"><img src="../img/ipg/dashed_sep.png" /></p>
+		<p class="dashed-sep"><img src="../../img/ipg/dashed_sep.png" /></p>
 	</div>
 	<div id="form-bottom">
 		<div id="dont-forget">
@@ -80,13 +80,13 @@
 		
 		<div class="files-container">
 			<h2>Visual Representation <span class="small white">(required to submit at least one visual)</span></h2>
-			<p class="solid-sep"><img src="../img/ipg/solid_sep.png" /></p>
+			<p class="solid-sep"><img src="../../img/ipg/solid_sep.png" /></p>
 			<?php if ($this->Form->isError('files_submission')): ?>
 				<?php echo $this->Form->error('files_submission'); ?>
 			<?php endif; ?>
 			<?php echo $this->Form->input('storyboard', array('label' => 'Storyboard','type' => 'file')); ?>
-			<?php echo $this->Form->input('ppt', array('label' => 'PPT','type' => 'file')); ?>
-			<?php echo $this->Form->input('video', array('label' => 'Video','type' => 'file')); ?>
+			<?php echo $this->Form->input('ppt', array('label' => 'PPT <span class="small">(5 Slides - Keep it visual)</span>','type' => 'file')); ?>
+			<?php echo $this->Form->input('video', array('label' => 'Video <span class="small">(2 min. max)</span>','type' => 'file')); ?>
 		</div>
 	</div>
 	<div class="center submit-container">

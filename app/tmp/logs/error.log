@@ -304,3 +304,91 @@
 #1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
 #2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-11-11 21:13:10 Error: [Exception] Uploader::__construct: GD image library is not installed
+#0 /var/www/cake/app/Controller/SubmissionController.php(19): Uploader->__construct()
+#1 [internal function]: SubmissionController->form1()
+#2 /var/www/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SubmissionController), Array)
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-11 21:24:29 Error: Fatal Error (1): Class 'Uploader' not found in [/var/www/cake/app/Controller/SubmissionController.php, line 16]
+2012-11-11 21:24:29 Error: [FatalErrorException] Class 'Uploader' not found
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Uploader...', '/var/www/cake/a...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Uploader...', '/var/www/cake/a...', 16, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Uploader...', '/var/www/cake/a...', 16, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:24:51 Error: Fatal Error (1): Class 'Uploader' not found in [/var/www/cake/app/Controller/SubmissionController.php, line 16]
+2012-11-11 21:24:51 Error: [FatalErrorException] Class 'Uploader' not found
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Uploader...', '/var/www/cake/a...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Uploader...', '/var/www/cake/a...', 16, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Uploader...', '/var/www/cake/a...', 16, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:24:53 Error: Fatal Error (1): Class 'Uploader' not found in [/var/www/cake/app/Controller/SubmissionController.php, line 16]
+2012-11-11 21:24:53 Error: [FatalErrorException] Class 'Uploader' not found
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Uploader...', '/var/www/cake/a...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Uploader...', '/var/www/cake/a...', 16, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Uploader...', '/var/www/cake/a...', 16, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:54:13 Error: [MissingActionException] Action SubmissionController::img() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 21:54:13 Error: [MissingActionException] Action SubmissionController::img() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 21:54:33 Error: [MissingActionException] Action SubmissionController::img() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 21:54:33 Error: [MissingActionException] Action SubmissionController::img() could not be found.
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 22:22:13 Error: [MissingControllerException] Controller class SubmissionCriteriaWhite.pngController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 22:22:15 Error: [MissingControllerException] Controller class SubmissionCriteriaWhite.pngController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 23:09:23 Error: [SocketException] Invalid email: "root"
+#0 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(427): CakeEmail->_setEmail('_to', 'root', NULL)
+#1 /var/www/cake/app/Controller/SubmissionController.php(31): CakeEmail->to('root')
+#2 [internal function]: SubmissionController->form1('digital')
+#3 /var/www/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SubmissionController), Array)
+#4 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-11-11 23:09:33 Error: [SocketException] Invalid email: "root@localhost"
+#0 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(427): CakeEmail->_setEmail('_to', 'root@localhost', NULL)
+#1 /var/www/cake/app/Controller/SubmissionController.php(31): CakeEmail->to('root@localhost')
+#2 [internal function]: SubmissionController->form1('digital')
+#3 /var/www/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SubmissionController), Array)
+#4 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-11-11 23:09:52 Error: [SocketException] Invalid email: "root@127.0.0.1"
+#0 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(427): CakeEmail->_setEmail('_to', 'root@127.0.0.1', NULL)
+#1 /var/www/cake/app/Controller/SubmissionController.php(31): CakeEmail->to('root@127.0.0.1')
+#2 [internal function]: SubmissionController->form1('digital')
+#3 /var/www/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SubmissionController), Array)
+#4 /var/www/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SubmissionController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-11-11 23:12:42 Error: [MissingControllerException] Controller class .well-knownController could not be found.
+#0 /var/www/cake/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

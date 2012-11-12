@@ -1,4 +1,5 @@
 <?php
+
 class Submission extends AppModel {
 	
 	public $useTable = false;
@@ -34,7 +35,24 @@ class Submission extends AppModel {
             'rule'    => array('minLength', '1'),
             'message' => 'Client name is required'
         ),
+        'files_submission' => array(
+            'message' => 'You must submit at least one file'
+        )
     );
+    
+    public $actsAs = array(
+		'Uploader.FileValidation' => array(
+			'storyboard' => array(
+    			'required' => false
+			),
+			'ppt' => array(
+    			'required' => false
+			),
+			'video' => array(
+    			'required' => false
+			)
+		)
+	);
     
     public $other = array(
     	'other_text' => array(
@@ -53,14 +71,23 @@ class Submission extends AppModel {
     	}
     	
     	if (
-    		empty($this->data[$this->name][strtolower($this->name)]['overall_summary']) && 
-    		empty($this->data[$this->name][strtolower($this->name)]['challenge']) &&
-    		empty($this->data[$this->name][strtolower($this->name)]['strategy']) &&
-    		empty($this->data[$this->name][strtolower($this->name)]['results']) 
+    		empty($this->data[$this->name]['overall_summary']) && 
+    		empty($this->data[$this->name]['challenge']) &&
+    		empty($this->data[$this->name]['strategy']) &&
+    		empty($this->data[$this->name]['results']) 
     	)
     	{
     		$this->invalidate('word_submission', 'You must fill out at least one word submission');
     	}
+    	
+    	if(
+	    	empty($this->data[$this->name]['storyboard']['tmp_name']) && 
+	    	empty($this->data[$this->name]['ppt']['tmp_name']) && 
+	    	empty($this->data[$this->name]['video']['tmp_name'])
+	    )
+	    {
+	        $this->invalidate('files_submission', $this->validate['files_submission']['message']);
+	    }
     	
     	return true;
     }

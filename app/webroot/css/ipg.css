@@ -386,7 +386,7 @@ div.center {
 	padding: 0 10px 20px 10px;
 }
 
-.submission-form {
+div.submission-form {
 	color: #fff;
 	font-family: 'squeaky_chalk_soundregular';
 	width: 970px;
@@ -401,6 +401,7 @@ div.center {
 .submission-form h1 {
 	padding-top: 25px;
 	font-size: 33px;
+	text-align: center;
 }
 
 .submission-form h2 {
@@ -568,4 +569,32 @@ div.center {
 	padding-top: 15px;
 	text-align: center;
 	font-size: 20px;
+}
+
+.submission-popup-container {
+	padding-top: 20px;
+}
+
+.submission-popup-container a {
+	display: block;
+	width: 203px;
+	height: 58px;
+	background-image: url('../img/ipg/submission_criteria_white.png');
+	margin: 0 auto 0 auto;
+}
+
+.submission-popup-container .pioneering:hover {
+	background-image: url('../img/ipg/submission_criteria_orange.png');
+}
+
+.submission-popup-container .ambitiously:hover {
+	background-image: url('../img/ipg/submission_criteria_blue.png');
+}
+
+.submission-popup-container .digital:hover {
+	background-image: url('../img/ipg/submission_criteria_green.png');
+}
+
+.submission-popup-container .cultivating:hover {
+	background-image: url('../img/ipg/submission_criteria_grey.png');
 }
