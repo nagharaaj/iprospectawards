@@ -1,24 +1,24 @@
-<p>Form Type:<br />
+<p><strong>Form Type:</strong><br />
 <?php echo $type; ?></p>
 
-<p>Name:<br />
+<p><strong>Name:</strong><br />
 <?php echo $data['Submission']['first_name']; ?> <?php echo $data['Submission']['last_name']; ?></p>
 
 <?php if (!empty($data['Submission']['team_name'])): ?>
-<p>Team Name:<br />
+<p><strong>Team Name:</strong><br />
 <?php echo $data['Submission']['team_name']; ?></p>
 <?php endif; ?>
 
-<p>E-mail Address:<br />
+<p><strong>E-mail Address:</strong><br />
 <?php echo $data['Submission']['email_address']; ?></p>
 
-<p>Country:<br />
+<p><strong>Country:</strong><br />
 <?php echo $data['Submission']['country']; ?></p>
 
-<p>Client Name:<br />
+<p><strong>Client Name:</strong><br />
 <?php echo $data['Submission']['client_name']; ?></p>
 
-<p>Service Lines Used:<br />
+<p><strong>Service Lines Used:</strong><br />
 <?php echo ((isset($data['Submission']['seo']) && !empty($data['Submission']['seo']))?'SEO<br />':''); ?>
 <?php echo ((isset($data['Submission']['ppc_sem_sea']) && !empty($data['Submission']['ppc_sem_sea']))?'PPC/SEM/SEA<br />':''); ?>
 <?php echo ((isset($data['Submission']['mobile']) && !empty($data['Submission']['mobile']))?'Mobile<br />':''); ?>
@@ -34,36 +34,36 @@
 </p>
 
 <?php if (!empty($data['Submission']['overall_summary'])): ?>
-<p>Overall Summary:<br />
+<p><strong>Overall Summary:</strong><br />
 <?php echo nl2br($data['Submission']['overall_summary']); ?></p>
 <?php endif; ?>
 
 <?php if (!empty($data['Submission']['challenge'])): ?>
-<p>Challenge/Objective:<br />
+<p><strong>Challenge/Objective:</strong><br />
 <?php echo nl2br($data['Submission']['challenge']); ?></p>
 <?php endif; ?>
 
 <?php if (!empty($data['Submission']['strategy'])): ?>
-<p>Strategy/Tactics:<br />
+<p><strong>Strategy/Tactics:</strong><br />
 <?php echo nl2br($data['Submission']['strategy']); ?></p>
 <?php endif; ?>
 
 <?php if (!empty($data['Submission']['results'])): ?>
-<p>Results/Solutions:<br />
+<p><strong>Results/Solutions:</strong><br />
 <?php echo nl2br($data['Submission']['results']); ?></p>
 <?php endif; ?>
 
 <?php if (isset($uploadData['storyboard']) && !empty($uploadData['storyboard']['path'])): ?>
-<p>Storyboard File:<br />
+<p><strong>Storyboard File:</strong><br />
 <a href="<?php echo 'http://'.rtrim(rtrim($_SERVER['HTTP_HOST'], '/'), '/').$uploadData['storyboard']['path']; ?>"><?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['storyboard']['path']; ?></a></p>
 <?php endif; ?>
 
 <?php if (isset($uploadData['ppt']) && !empty($uploadData['ppt']['path'])): ?>
-<p>PPT File:<br />
+<p><strong>PPT File:</strong><br />
 <a href="<?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['ppt']['path']; ?>"><?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['ppt']['path']; ?></a></p>
 <?php endif; ?>
 
 <?php if (isset($uploadData['video']) && !empty($uploadData['video']['path'])): ?>
-<p>Video File:<br />
+<p><strong>Video File:</strong><br />
 <a href="<?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['video']['path']; ?>"><?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['video']['path']; ?></a></p>
 <?php endif; ?>
