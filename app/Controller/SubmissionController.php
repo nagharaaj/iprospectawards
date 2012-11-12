@@ -25,7 +25,7 @@ class SubmissionController extends AppController
 				if ($data = $this->Uploader->uploadAll())
 				{
 					$email = new CakeEmail();
-					$email->viewVars(array('type' => $header, 'data' => $this->data, 'uploadData' => $data));
+					$email->viewVars(array('title_for_layout' => 'IPG Submission', 'type' => $header, 'data' => $this->data, 'uploadData' => $data));
 					$email->template('form1', 'default')
 					    ->emailFormat('html')
 					    ->to('peters.robert.j@gmail.com')
