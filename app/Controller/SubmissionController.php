@@ -27,7 +27,7 @@ class SubmissionController extends AppController
 					$email = new CakeEmail();
 					$email->viewVars(array('type' => $header, 'data' => $this->data, 'uploadData' => $data));
 					$email->template('form1', 'default')
-					    ->emailFormat('text')
+					    ->emailFormat('html')
 					    ->to('peters.robert.j@gmail.com')
 					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
 					    ->send();
