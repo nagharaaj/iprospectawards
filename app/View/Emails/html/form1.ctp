@@ -55,15 +55,15 @@
 
 <?php if (isset($uploadData['storyboard']) && !empty($uploadData['storyboard']['path'])): ?>
 <p>Storyboard File:<br />
-<a href="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>/<?php echo $uploadData['storyboard']['path']; ?>"><?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>/<?php echo $uploadData['storyboard']['path']; ?></a></p>
+<a href="<?php echo 'http://'.rtrim(rtrim($_SERVER['HTTP_HOST'], '/'), '/').$uploadData['storyboard']['path']; ?>"><?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['storyboard']['path']; ?></a></p>
 <?php endif; ?>
 
 <?php if (isset($uploadData['ppt']) && !empty($uploadData['ppt']['path'])): ?>
 <p>PPT File:<br />
-<a href="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>/<?php echo $uploadData['ppt']['path']; ?>"><?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>/<?php echo $uploadData['ppt']['path']; ?></a></p>
+<a href="<?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['ppt']['path']; ?>"><?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['ppt']['path']; ?></a></p>
 <?php endif; ?>
 
 <?php if (isset($uploadData['video']) && !empty($uploadData['video']['path'])): ?>
 <p>Video File:<br />
-<a href="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>/<?php echo $uploadData['video']['path']; ?>"><?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>/<?php echo $uploadData['video']['path']; ?></a></p>
+<a href="<?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['video']['path']; ?>"><?php echo 'http://'.rtrim($_SERVER['HTTP_HOST'], '/').$uploadData['video']['path']; ?></a></p>
 <?php endif; ?>
