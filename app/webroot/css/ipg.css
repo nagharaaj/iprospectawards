@@ -163,6 +163,10 @@ div.center {
 	text-shadow: 2px -1px #8cc63f;
 }
 
+.blue-green {
+	color: #2aa2bd;
+}
+
 .orange {
 	/*color: #c06823;*/
 	color: #f58026;
@@ -293,19 +297,31 @@ div.center {
 }
 
 .font-10 {
-	font-size: 10px;
+	font-size: 10px !important;
 }
 
 .font-11 {
-	font-size: 11px;
+	font-size: 11px !important;
 }
 
 .font-12 {
-	font-size: 12px;
+	font-size: 12px !important;
 }
 
 .font-14 {
-	font-size: 14px;
+	font-size: 14px !important;
+}
+
+.font-16 {
+	font-size: 16px !important; 
+}
+
+.font-18 {
+	font-size: 18px !important; 
+}
+
+.font-20 {
+	font-size: 20px !important; 
 }
 
 .italic {
@@ -742,4 +758,20 @@ div.submission-form {
 
 .textarea-label {
 	padding: 15px 0 0 0;
+}
+
+#judging-container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#judging-container h1
+{
+	font-size: 48px;
+}
+
+#judging-container .top p {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
