@@ -15,11 +15,13 @@ class SubmissionController extends AppController
 	
 	public function index()
 	{
-		
+		$this->set('title_for_layout', 'IPG Awards - Submission');
 	}
 	
 	public function form1($header)
 	{
+		$this->set('title_for_layout', 'IPG Awards - Submission - '.ucfirst($header));
+
 		if ($this->request->is('post'))
 		{
 			$this->Uploader = new Uploader();
@@ -48,6 +50,8 @@ class SubmissionController extends AppController
 	
 	public function form2($header)
 	{
+		 $this->set('title_for_layout', 'IPG Awards - Submission - '.ucfirst($header));
+
 		if ($this->request->is('post'))
 		{
 			$this->Uploader = new Uploader();
