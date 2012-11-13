@@ -62,6 +62,15 @@ class Cultivate extends AppModel {
     	{
     		$this->invalidate('word_submission', 'You must fill out at least one word submission');
     	}    	
+
+	if (
+            str_word_count($this->data[$this->name]['driving']) > 150 ||
+            str_word_count($this->data[$this->name]['examples']) > 150 ||
+            str_word_count($this->data[$this->name]['attitude'])  > 150
+        )
+        {
+            $this->invalidate('word_submission', 'You have entered more than 150 words in a submission');
+        }
     	
     	return true;
     }
