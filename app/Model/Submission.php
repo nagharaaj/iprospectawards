@@ -65,6 +65,16 @@ class Submission extends AppModel {
     	{
     		$this->invalidate('word_submission', 'You must fill out at least one word submission');
     	}
+
+        if (
+            str_word_count($this->data[$this->name]['overall_summary']) > 150 ||
+            str_word_count($this->data[$this->name]['challenge']) > 150 ||
+            str_word_count($this->data[$this->name]['strategy']) > 150 ||
+            str_word_count($this->data[$this->name]['results'])  > 150
+        )
+        {
+            $this->invalidate('word_submission', 'You have entered more than 150 words in a submission');
+        }
     	
     	if(
 	    	empty($this->data[$this->name]['storyboard']['tmp_name']) && 

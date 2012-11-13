@@ -153,14 +153,16 @@ div.center {
 }
 
 .blue-shadow {
-	text-shadow: 2px -1px #009bc9;
+	/*text-shadow: 2px -1px #009bc9;*/
+    text-shadow: 1px -1px #0e6b86;
 }
 
 .green {
 	color: #8CC63F;
 }
 .green-shadow {
-	text-shadow: 2px -1px #8cc63f;
+	/*text-shadow: 2px -1px #8cc63f;*/
+    text-shadow: 1px -1px #5f8331;
 }
 
 .blue-green {
@@ -173,11 +175,13 @@ div.center {
 }
 .orange-shadow {
 	/*text-shadow: 2px -1px #c06823;*/
-	text-shadow: 2px -1px #f58026;
+	/*text-shadow: 2px -1px #f58026;*/
+    text-shadow: 1px -1px #996235;
 }
 
 .grey-shadow {
-	text-shadow: 2px -1px #707171;
+	/*text-shadow: 2px -1px #707171;*/
+    text-shadow: 1px -1px #595b59;
 }
 
 @font-face {
@@ -774,4 +778,8 @@ div.submission-form {
 	font-size: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+#categories-container h2 a {
+    text-decoration: none;
 }

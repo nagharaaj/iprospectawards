@@ -53,7 +53,7 @@
 		<h2>Word Submission <span class="small white">(Required)</span></h2>
 		<div id="no-more" class="indent">
 			<p>We want no more than 600 words in total and 150 per section.</p>
-			<p>Be clear and concise. <a href="#" class="blue">Download Word Submission Format Here</a> <span class="white">&#9654;</span></p>
+			<p>Be clear and concise. <a href="../../<?php echo strtoupper($header); ?>-FORMAT.doc" class="blue">Download Word Submission Format Here</a> <span class="white">&#9654;</span></p>
 		</div>
 		<?php if ($this->Form->isError('word_submission')): ?>
 			<?php echo $this->Form->error('word_submission'); ?>

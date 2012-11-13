@@ -33,7 +33,7 @@ class SubmissionController extends AppController
 					$email->viewVars(array('title_for_layout' => 'IPG Submission', 'type' => $header, 'data' => $this->data, 'uploadData' => $data));
 					$email->template('form1', 'default')
 					    ->emailFormat('html')
-					    ->to(array('peters.robert.j@gmail.com','gerards.gaspard@gmail.com'))
+					    ->to(array('Amanda.Dubois@Iprospect.com'))
 					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
 					    ->subject('IPG Award Submission')
 					    ->send();
