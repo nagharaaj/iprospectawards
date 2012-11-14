@@ -351,8 +351,7 @@ div.center {
 	font-size: 30px;
 	color: #fff;
 	
-	margin-top: 25px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
 #container #pioneering-solutions {
@@ -360,7 +359,7 @@ div.center {
 	margin: 20px auto 0 auto;
 	font-family: "dk_crayon_crumbleregular";
 	color: #c06823;
-	font-size: 32px;
+	font-size: 22px;
 }
 
 #container #pioneering-solutions-link {
@@ -376,10 +375,10 @@ div.center {
 
 #container #ambitiously-driving {
 	width: 1000px;
-	margin: 30px auto 0 auto;
+	margin: 0px auto 0 auto;
 	color: #009bc9;
 	font-family: "kg_ten_thousand_reasonsRg";
-	font-size: 20px;
+	font-size: 14px;
 }
 
 #container #ambitiously-driving-link {
@@ -405,16 +404,17 @@ div.center {
 #container #digital-performance .left-block {
 	float: left;
 	width: 470px;
-	font-family: "teenregular";
-	font-size: 24px;
+	font-family: "dk_crayon_crumbleregular";
+	font-size: 22px;
+	color: #85C657;
 }
 
 #container #digital-performance .right-block {
 	float: left;
 	width: 480px;
 	color: #d2d2d2;
-	font-family: 'squeaky_chalk_soundregular';
-	font-size: 20px;
+	font-family: 'kg_ten_thousand_reasonsRg';
+	font-size: 14px;
 }
 
 #container #digital-performance p {
@@ -770,13 +770,12 @@ div.submission-form {
 
 #judging-container h1
 {
-	font-size: 48px;
+	font-size: 24px;
 }
 
 #judging-container .top p {
-	font-size: 30px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	font-size: 22px;
+	padding-top: 5px;
 }
 
 #categories-container h2 a {
