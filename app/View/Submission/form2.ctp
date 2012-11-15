@@ -5,7 +5,7 @@
 	<?php echo $this->element($header); ?>
 	<?php echo $this->Form->create('Cultivate', array('url' => '/submission/form2/'.$header, 'type' => 'file')); ?>
 	<p class="solid-sep"><img src="../../img/ipg/solid_sep.png" /></p>
-	<h2>About You:</h2>
+	<h2><img src="../../img/ipg/about-you-header.png" /></h2>
 	<div id="form-top">
 		<?php echo $this->Form->input('first_name', array('label' => 'First Name:')); ?>
 		<?php echo $this->Form->input('last_name', array('label' => 'Last Name:')); ?>
@@ -18,7 +18,7 @@
 		<?php echo $this->Form->input('their_country', array('label' => 'What country do they work in?')); ?>
 	</div>
 	<div id="form-bottom">
-		<h2>Word Submission <span class="small white">(Required)</span></h2>
+		<h2><img src="../../img/ipg/word-submission-header.png" /> <span class="small white">(Required)</span></h2>
 		<div id="no-more" class="indent">
 			<p>Each section allows for a maximum of 150 words.</p>
 			<p><a href="../../<?php echo strtoupper($header); ?>-FORMAT.doc" class="blue">Download Word Submission Format Here</a> <span class="white">&#9654;</span></p>
@@ -43,7 +43,7 @@
 				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
 			</div>
 			<div class="files-container">
-				<h2>Visual Representation</h2>
+				<h2><img src="../../img/ipg/visual-header.png" /></h2>
 				<p>Have a picture of the employee in action? Please share! Max. 3</p><br />
 				<?php echo $this->Form->input('picture1', array('label' => 'Picture 1','type' => 'file', 'div' => 'input file orange')); ?>
 				<?php echo $this->Form->input('picture2', array('label' => 'Picture 2','type' => 'file', 'div' => 'input file orange')); ?>
