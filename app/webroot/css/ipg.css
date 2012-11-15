@@ -11,6 +11,10 @@ body {
 	background: url('../img/ipg/background.png');
 }
 
+a img {
+	border: none;
+}
+
 #container {
 	width: 1020px;
 	margin: 0 auto -134px auto;
