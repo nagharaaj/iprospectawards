@@ -105,10 +105,7 @@ body {
 }
 
 #content #main-image {
-	width: 1020px;
 	text-align: center;
-	background: url('../img/ipg/home-spritemap.png') -20px -185px no-repeat;
-	height: 350px;
 }
 
 #footer .wrapper {
