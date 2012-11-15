@@ -17,7 +17,7 @@
 	
 </head>
 <body>
-	<div id="container">
+	<div id="container" class="<?php echo (isset($home)?'container-home':'');?>">
 		<div id="header">
 			<ul id="navigation">
 				<li class="home<?php echo ($currentPage == 'home'?'-current':''); ?>"><a href="/"><span>Home</span></a></li>
@@ -33,12 +33,17 @@
 			<?php echo $this->fetch('content'); ?>
 			
 		</div>
-		<div id="push"></div>
+		<div class="<?php echo (isset($home)?'push-arrows':'push');?>"></div>
 	</div>
-	<div id="footer">
+	<?php if (isset($home)): ?>
+            <div class="right push-arrows"><img src="../img/ipg/arrows.png" /></div>
+	<?php endif; ?>
+	<div class="footer">
 		<div class="wrapper">
 			<div class="left"><a id="footer-logo" href="/"></a></div>
-			<div class="right"><a id="footer-button" href="/submission"></a></div>
+			<?php if (isset($home)): ?>
+				<div class="right"><a id="footer-button" href="/submission"></a></div>
+			<?php endif; ?>
 		</div>
 	</div>
 </body>

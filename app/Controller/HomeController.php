@@ -5,5 +5,6 @@ class HomeController extends AppController
 	{
 		$this->set('title_for_layout', 'IPG Awards - Home');
 		$this->set('currentPage', 'home');
+		$this->set('home', 1);
 	}
 }

@@ -20,8 +20,20 @@ body {
 	height: 100%;
 }
 
-#footer, #push {
+.container-home {
+        margin: 0 auto -244px auto !important;
+}
+
+.footer, .push {
 	height: 134px;
+}
+
+.push-arrows {
+	height: 110px;
+	line-height: 110px;
+	vertical-align: bottom;
+	width: 1020px;
+	margin: 0 auto 0 auto;
 }
 
 #container #header ul#navigation {
@@ -103,7 +115,7 @@ body {
     vertical-align: top;
 }
 
-#footer {
+.footer {
 	background: url('../img/ipg/footer-bg.png') repeat-x;
 }
 
@@ -114,27 +126,28 @@ body {
 	text-align: center;
 }
 
-#footer .wrapper {
+.footer .wrapper {
 	margin: 0 auto 0 auto;
 	width: 1000px;
 }
 
-#footer .wrapper .left {
+.footer .wrapper .left {
 	float: left;
 }
 
-#footer .wrapper .left #footer-logo {
+.footer .wrapper .left #footer-logo {
 	background: url('../img/ipg/home-spritemap.png') -75px -550px no-repeat;
 	width: 310px;
 	height: 125px;
 	display: block;
 }
 
-#footer .wrapper .right {
+.footer .wrapper .right {
 	float: right;
+	padding-right: 30px;
 }
 
-#footer .wrapper .right #footer-button {
+.footer .wrapper .right #footer-button {
 	background: url('../img/ipg/home-spritemap.png') -485px -590px no-repeat;
 	display: block;
 	width: 150px;
