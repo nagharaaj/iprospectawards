@@ -109,14 +109,17 @@ $config['Uploader']['mimeTypes'] = array(
 		'xll' 	=> 'application/vnd.ms-excel',
 		'xlm' 	=> 'application/vnd.ms-excel',
 		'xls' 	=> 'application/vnd.ms-excel',
+		'xlsx'	=> 'application/vnd.ms-excel',
 		'xlw' 	=> 'application/vnd.ms-excel',
 		'doc'	=> 'application/msword',
+		'docx'	=> 'application/msword',
 		'dot'	=> 'application/msword',
 		'pdf' 	=> 'application/pdf',
 		'psd' 	=> 'image/vnd.adobe.photoshop',
 		'ai' 	=> 'application/postscript',
 		'eps' 	=> 'application/postscript',
 		'ps' 	=> 'application/postscript',
-		'swf'	=> 'application/x-shockwave-flash'
+		'swf'	=> 'application/x-shockwave-flash',
+		'pptx'	=> 'application/pptx'
 	)
 );
