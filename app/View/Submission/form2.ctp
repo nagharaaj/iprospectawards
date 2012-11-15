@@ -20,8 +20,7 @@
 	<div id="form-bottom">
 		<h2><img src="../../img/ipg/word-submission-header.png" /> <span class="small white">(Required)</span></h2>
 		<div id="no-more" class="indent">
-			<p>Each section allows for a maximum of 150 words.</p>
-			<p><a href="../../<?php echo strtoupper($header); ?>-FORMAT.doc" class="blue">Download Word Submission Format Here</a> <span class="white">&#9654;</span></p>
+			<p><a href="../../<?php echo strtoupper($header); ?>-FORMAT.doc" class="blue"><img src="../../img/ipg/form2-submission-details.png" /></a></p>
 		</div>
 		<?php if ($this->Form->isError('word_submission')): ?>
 			<?php echo $this->Form->error('word_submission'); ?>
