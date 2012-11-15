@@ -151,7 +151,7 @@ body {
 	background: url('../img/ipg/home-spritemap.png') -485px -590px no-repeat;
 	display: block;
 	width: 150px;
-	height: 85px;
+	height: 65px;
 }
 
 div.center {
@@ -418,10 +418,11 @@ div.center {
 
 #container #digital-performance .left-block {
 	float: left;
-	width: 470px;
+	width: 460px;
 	font-family: "dk_crayon_crumbleregular";
 	font-size: 22px;
 	color: #85C657;
+	padding-left: 10px;
 }
 
 #container #digital-performance .right-block {
@@ -476,7 +477,7 @@ div.center {
 }
 
 .sep-block img {
-	padding: 0 10px 20px 10px;
+	padding: 0 10px 20px 20px;
 }
 
 div.submission-form {
