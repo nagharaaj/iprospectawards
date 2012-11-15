@@ -82,7 +82,7 @@
 		</div>
 		
 		<div class="files-container">
-			<h2>V<img src="../../img/ipg/visual-header.png" /> <span class="small white">(required to submit at least one visual)</span></h2>
+			<h2><img src="../../img/ipg/visual-header.png" /> <span class="small white">(required to submit at least one visual)</span></h2>
 			<p class="solid-sep"><img src="../../img/ipg/solid_sep.png" /></p>
 			<?php if ($this->Form->isError('files_submission')): ?>
 				<?php echo $this->Form->error('files_submission'); ?>
