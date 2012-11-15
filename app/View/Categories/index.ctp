@@ -8,8 +8,8 @@
 		<p>iProspect is known for its innovation in producing industry-leading results. Show us how you or your team used our iProspect products and services to re-invent the way brands are built. Entries should demonstrate how you or your team activated digital campaigns that contributed to your clients’ business success and profitability. Entries can focus on solutions using one or multiple services we offer.</p>
 	</div>
 	<div id="pioneering-solutions-link">
-		<p><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/pioneering-popup.png /></a>'});">Click here for submission criteria &#9654;</a></p>
-		<p><a href="../submission/form1/pioneering">Click here to enter now &#9654;</a></p>
+		<p><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/pioneering-popup.png /></a>'});"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here for submission criteria</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../submission/form1/pioneering"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here to enter now</a></p>
 	</div>
 	<img src="../img/ipg/categories-lines_03.png" class="sep-line" />
 	<div id="ambitiously-driving">
@@ -17,8 +17,8 @@
 		<p>iProspect teams—and their clients—can benefit from our unique P&L structure and operation model. Entries in this category should showcase digital solutions drawn from more than one Aegis company that generated positive business value for iProspect clients. Demonstrate how you or your team leveraged partnerships with our network brands in order to take advantage of the broader suite of Aegis Media solutions.</p>
 	</div>
 	<div id="ambitiously-driving-link">
-		<p><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/ambitiously-popup.png /></a>'});">Click here for submission criteria &#9654;</a></p>
-		<p><a href="../submission/form1/ambitiously">Click here to enter now &#9654;</a></p>
+		<p><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/ambitiously-popup.png /></a>'});"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here for submission criteria</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../submission/form1/ambitiously"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here to enter now</a></p>
 	</div>
 	<img src="../img/ipg/categories-lines_06.png" class="sep-line" />
 	<div id="digital-performance">

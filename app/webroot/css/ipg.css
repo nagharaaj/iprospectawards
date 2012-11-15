@@ -97,6 +97,12 @@ body {
 	clear: left;
 }
 
+.link-arrow {
+    font-size: 10px;
+    line-height: 12px;
+    vertical-align: top;
+}
+
 #footer {
 	background: url('../img/ipg/footer-bg.png') repeat-x;
 }
