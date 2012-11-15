@@ -1,1 +1,1 @@
-<div class="center"><img src="../img/ipg/awards-sprite.png" /></div>
+<div class="center"><br /><p><img src="../img/ipg/coming-soon.png" /></p><br /><br /></div>

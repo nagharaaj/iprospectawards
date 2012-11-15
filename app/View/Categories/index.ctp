@@ -26,8 +26,8 @@
 			<h2><a href="../submission/form1/digital"><img src="../img/ipg/digital-headline.png" /></a></h2>
 			<p>iProspect’s vision is to become the world’s most sought-after global digital performance agency. This award will highlight the work we are delivering through our global footprint, either through coordination of work by iProspect offices in multiple countries, or deployment of services to multiple countries from a single iProspect location. Entries must include work in at least three (3) different countries or two (2) different Regions, and must be specific to iProspect offices (not Aegis Operating Model).</p>
 			<div class="digital-performance-link right">
-				<p><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/digital-popup.png /></a>'});">Click here for submission criteria &#9654;</a></p>
-				<p><a href="../submission/form1/digital">Click here to enter now &#9654;</a></p>
+				<p><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/digital-popup.png /></a>'});"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here for submission criteria</a></p>
+				<p><a href="../submission/form1/digital"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here to enter now</a></p>
 			</div>
 		</div>
 		<div class="sep-block"><img src="../img/ipg/categories-lines_08.png" /></div>
@@ -35,8 +35,8 @@
 			<h2><a href="../submission/form2/cultivating"><img src="../img/ipg/cultivate-headline.png" /></a></h2>
 			<p>Most importantly, iProspect is you! Because we recognize the fact that individuals make our business successful, maintaining a culture that celebrates its people is important to us. Entries for this category should include ambitious teams or employees who go above and beyond expectations in order to improve our corporate culture, whether through economic, social or environmental means. You can submit an entry on behalf of yourself, your team or someone you think deserves recognition.</p>
 			<div class="digital-performance-link right">
-				<p class="first-link"><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/cultivating-popup.png /></a>'});">Click here for submission criteria &#9654;</a></p>
-				<p><a href="../submission/form2/cultivating">Click here to enter now &#9654;</a></p>
+				<p class="first-link"><a href="javascript:$.fancybox({closeBtn: false, content: '<a href=javascript:$.fancybox.close();><img src=../img/ipg/cultivating-popup.png /></a>'});"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here for submission criteria</a></p>
+				<p><a href="../submission/form2/cultivating"><span class="link-arrow">&#9654;</span>&nbsp;&nbsp;&nbsp;Click here to enter now</a></p>
 			</div>
 		</div>
 	</div>
