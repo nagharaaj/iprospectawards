@@ -36,7 +36,7 @@ class SubmissionController extends AppController
 					$email->template('form1', 'default')
 					    ->emailFormat('html')
 					    ->to(array('Amanda.Dubois@Iprospect.com','nathan.barling@gmail.com'))
-					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
+					    ->from(array('noreply@iprospectawards.com' => 'IPG Award Submission'))
 					    ->subject('IPG Award Submission')
 					    ->send();
 					    
@@ -66,7 +66,7 @@ class SubmissionController extends AppController
 					$email->template('form2', 'default')
 					    ->emailFormat('html')
 					    ->to(array('Amanda.Dubois@Iprospect.com','nathan.barling@gmail.com'))
-					    ->from(array('donotreply@localhost.com' => 'IPG Award Submission'))
+					    ->from(array('noreply@iprospectawards.com' => 'IPG Award Submission'))
 					    ->subject('IPG Award Submission')
 					    ->send();
 					
