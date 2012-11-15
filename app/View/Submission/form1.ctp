@@ -5,7 +5,7 @@
 	<?php echo $this->element($header); ?>
 	<?php echo $this->Form->create('Submission', array('url' => '/submission/form1/'.$header, 'type' => 'file')); ?>
 	<p class="solid-sep"><img src="../../img/ipg/solid_sep.png" /></p>
-	<h2>About You:</h2>
+	<h2><img src="../../img/ipg/about-you-header.png" /></h2>
 	<div id="form-top">
 		<?php echo $this->Form->input('first_name', array('label' => 'First Name:')); ?>
 		<?php echo $this->Form->input('last_name', array('label' => 'Last Name:')); ?>
@@ -14,7 +14,7 @@
 		<?php echo $this->Form->input('country', array('label' => 'Country:')); ?>
 	</div>
 	<p class="dashed-sep"><img src="../../img/ipg/dashed_sep.png" /></p>
-	<h2>About the Submission</h2>
+	<h2><img src="../../img/ipg/about-submission-header.png" /></h2>
 	<div id="form-middle">
 		<?php echo $this->Form->input('client_name', array('label' => 'Client Name')); ?>
 		<p>Service Line Used <span class="small">(Check all that apply)</span></p>
@@ -50,7 +50,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		<h2>Word Submission <span class="small white">(Required)</span></h2>
+		<h2><img src="../../img/ipg/word-submission-header.png" /> <span class="small white">(Required)</span></h2>
 		<div id="no-more" class="indent">
 			<p>We want no more than 600 words in total and 150 per section.</p>
 			<p>Be clear and concise. <a href="../../<?php echo strtoupper($header); ?>-FORMAT.doc" class="blue">Download Word Submission Format Here</a> <span class="white">&#9654;</span></p>
