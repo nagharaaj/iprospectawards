@@ -653,6 +653,9 @@ div.submission-form {
 	height: 100px;
 	background-image: url('../img/ipg/submit.png');
 	cursor: pointer;
+	border: none;
+	padding: 0;
+	margin: 0;
 }
 
 .submit:hover {
@@ -660,6 +663,9 @@ div.submission-form {
 	height: 100px;
 	background-image: url('../img/ipg/submit_hover.png');
 	cursor: pointer;
+	border: none;
+	padding: 0;
+	margin: 0;
 }
 
 .submit-container {
