@@ -28,6 +28,11 @@ body {
 	height: 134px;
 }
 
+.entries-due-by {
+	float: right;
+	margin-top: -20px;
+}
+
 .push-arrows {
 	height: 110px;
 	line-height: 110px;
