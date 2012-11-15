@@ -109,10 +109,8 @@ $config['Uploader']['mimeTypes'] = array(
 		'xll' 	=> 'application/vnd.ms-excel',
 		'xlm' 	=> 'application/vnd.ms-excel',
 		'xls' 	=> 'application/vnd.ms-excel',
-		'xlsx'	=> 'application/vnd.ms-excel',
 		'xlw' 	=> 'application/vnd.ms-excel',
 		'doc'	=> 'application/msword',
-		'docx'	=> 'application/msword',
 		'dot'	=> 'application/msword',
 		'pdf' 	=> 'application/pdf',
 		'psd' 	=> 'image/vnd.adobe.photoshop',
@@ -120,6 +118,15 @@ $config['Uploader']['mimeTypes'] = array(
 		'eps' 	=> 'application/postscript',
 		'ps' 	=> 'application/postscript',
 		'swf'	=> 'application/x-shockwave-flash',
-		'pptx'	=> 'application/pptx'
+		'xlsx'	=> 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+		'xltx'	=> 'application/vnd.openxmlformats-officedocument.spreadsheetml.template',
+		'potx'	=> 'application/vnd.openxmlformats-officedocument.presentationml.template',
+		'ppsx'	=> 'application/vnd.openxmlformats-officedocument.presentationml.slideshow',
+		'pptx'	=> 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+		'sldx'	=> 'application/vnd.openxmlformats-officedocument.presentationml.slide',
+		'docx'	=> 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+		'dotx'	=> 'application/vnd.openxmlformats-officedocument.wordprocessingml.template',
+		'xlam'	=> 'application/vnd.ms-excel.addin.macroEnabled.12',
+		'xlsb'	=> 'application/vnd.ms-excel.sheet.binary.macroEnabled.12'
 	)
 );
