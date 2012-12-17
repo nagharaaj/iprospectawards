@@ -64,12 +64,12 @@ class Cultivate extends AppModel {
     	}    	
 
 	if (
-            str_word_count($this->data[$this->name]['driving']) > 150 ||
-            str_word_count($this->data[$this->name]['examples']) > 150 ||
-            str_word_count($this->data[$this->name]['attitude'])  > 150
+            str_word_count($this->data[$this->name]['driving']) > 175 ||
+            str_word_count($this->data[$this->name]['examples']) > 175 ||
+            str_word_count($this->data[$this->name]['attitude'])  > 175
         )
         {
-            $this->invalidate('word_submission', 'You have entered more than 150 words in a submission');
+            $this->invalidate('word_submission', 'You have entered more than 175 words in a submission');
         }
     	
     	return true;

@@ -67,13 +67,13 @@ class Submission extends AppModel {
     	}
 
         if (
-            str_word_count($this->data[$this->name]['overall_summary']) > 150 ||
-            str_word_count($this->data[$this->name]['challenge']) > 150 ||
-            str_word_count($this->data[$this->name]['strategy']) > 150 ||
-            str_word_count($this->data[$this->name]['results'])  > 150
+            str_word_count($this->data[$this->name]['overall_summary']) > 175 ||
+            str_word_count($this->data[$this->name]['challenge']) > 175 ||
+            str_word_count($this->data[$this->name]['strategy']) > 175 ||
+            str_word_count($this->data[$this->name]['results'])  > 175
         )
         {
-            $this->invalidate('word_submission', 'You have entered more than 150 words in a submission');
+            $this->invalidate('word_submission', 'You have entered more than 175 words in a submission');
         }
     	
     	if(

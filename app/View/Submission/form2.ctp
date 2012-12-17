@@ -59,7 +59,7 @@
 </div>
 
 <script type="text/javascript">
-var $limitWords = 150;
+var $limitWords = 175;
 
 $("#CultivateDriving, #CultivateExamples, #CultivateAttitude").each(function(e) {
 	$this = $(this);

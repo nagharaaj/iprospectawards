@@ -100,7 +100,7 @@
 </div>
 
 <script type="text/javascript">
-var $limitWords = 150;
+var $limitWords = 175;
 
 $("#SubmissionOverallSummary, #SubmissionChallenge, #SubmissionStrategy, #SubmissionResults").each(function(e) {
 	$this = $(this);
