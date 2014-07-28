@@ -38,8 +38,8 @@ a img {
 }
 
 .push-arrows {
-	height: 110px;
-	line-height: 110px;
+	height: 121px;
+	line-height: 121px;
 	vertical-align: bottom;
 	width: 1020px;
 	margin: 0 auto 0 auto;
@@ -48,7 +48,8 @@ a img {
 #container #header ul#navigation {
 	list-style-type: none;
 	margin: 0;
-	padding: 10px 0 0 0;
+	/*padding: 10px 0 0 0;*/
+        padding: 10px 0 0 90px;
 }
 
 #container #header ul#navigation li a {
@@ -65,15 +66,15 @@ a img {
 }
 
 #container #header ul#navigation li.home a {
-	background: url('../img/ipg/home-spritemap.png') -20px -115px no-repeat;
+	background: url('../img/ipg/home-spritemap.png') -13px -115px no-repeat;
 }
 
 #container #header ul#navigation li.home-current a, #container #header ul#navigation li.home:hover a {
-	background: url('../img/ipg/home-spritemap.png') -20px -32px no-repeat;
+	background: url('../img/ipg/home-spritemap.png') -24px -32px no-repeat;
 }
 
 #container #header ul#navigation li.message a {
-	background: url('../img/ipg/home-spritemap.png') -175px -115px no-repeat;
+	background: url('../img/ipg/home-spritemap.png') -164px -115px no-repeat;
 }
 
 #container #header ul#navigation li.message-current a, #container #header ul#navigation li.message:hover a {
@@ -81,7 +82,7 @@ a img {
 }
 
 #container #header ul#navigation li.categories a {
-	background: url('../img/ipg/home-spritemap.png') -335px -115px no-repeat;
+	background: url('../img/ipg/home-spritemap.png') -324px -115px no-repeat;
 }
 
 #container #header ul#navigation li.categories-current a, #container #header ul#navigation li.categories:hover a {
@@ -89,7 +90,7 @@ a img {
 }
 
 #container #header ul#navigation li.judging a {
-	background: url('../img/ipg/home-spritemap.png') -500px -115px no-repeat;
+	background: url('../img/ipg/home-spritemap.png') -489px -115px no-repeat;
 }
 
 #container #header ul#navigation li.judging-current a, #container #header ul#navigation li.judging:hover a {
@@ -97,21 +98,21 @@ a img {
 }
 
 #container #header ul#navigation li.awards a {
-	background: url('../img/ipg/home-spritemap.png') -660px -115px no-repeat;
+	background: url('../img/ipg/home-spritemap.png') -643px -115px no-repeat;
 }
 
 #container #header ul#navigation li.awards-current a, #container #header ul#navigation li.awards:hover a {
-	background: url('../img/ipg/home-spritemap.png') -660px -32px no-repeat;
+	background: url('../img/ipg/home-spritemap.png') -654px -32px no-repeat;
 }
 
 #container #header ul#navigation li.submission-form a {
-	background: url('../img/ipg/home-spritemap.png') -820px -115px no-repeat;
-	width: 200px;
+	background: url('../img/ipg/home-spritemap.png') -790px -115px no-repeat;
+	width: 210px;
 }
 
 #container #header ul#navigation li.submission-form-current a, #container #header ul#navigation li.submission-form:hover a {
-	background: url('../img/ipg/home-spritemap.png') -820px -32px no-repeat;
-	width: 200px;
+	background: url('../img/ipg/home-spritemap.png') -814px -29px no-repeat;
+	width: 210px;
 }
 
 #content {
@@ -147,7 +148,7 @@ a img {
 .footer .wrapper .left #footer-logo {
 	background: url('../img/ipg/home-spritemap.png') -75px -550px no-repeat;
 	width: 310px;
-	height: 125px;
+	height: 135px;
 	display: block;
 }
 
@@ -191,6 +192,7 @@ div.center {
 
 .blue-green {
 	color: #2aa2bd;
+        font-weight: normal;
 }
 
 .orange {
@@ -358,6 +360,7 @@ div.center {
 
 #categories-container {
 	padding-top: 20px;
+        padding-bottom: 25px;
 }
 
 #categories-container a {
@@ -372,9 +375,9 @@ div.center {
 }
 
 #categories-container h2 {
-	font-size: 30px;
+	font-size: 36px;
 	color: #fff;
-	
+	font-weight: normal;
 	margin-bottom: 15px;
 }
 
@@ -397,6 +400,10 @@ div.center {
 	margin: 5px 20px 0px 0px;
 }
 
+#container #pioneering-solutions h2 {
+        font-family: 'dirty_headlineregular';
+}
+
 #container #ambitiously-driving {
 	width: 1000px;
 	margin: 0px auto 0 auto;
@@ -414,6 +421,10 @@ div.center {
 
 #container #ambitiously-driving-link p {
 	margin: 5px 20px 0px 0px;
+}
+
+#container #ambitiously-driving h2 {
+        font-family: 'dirty_headlineregular';
 }
 
 #container #digital-performance {
@@ -437,19 +448,56 @@ div.center {
 #container #digital-performance .right-block {
 	float: left;
 	width: 480px;
-	color: #d2d2d2;
+	color: #f6696f;
 	font-family: 'kg_ten_thousand_reasonsRg';
 	font-size: 14px;
+        padding-left: 70px;
 }
 
 #container #digital-performance p {
 	margin: 5px 0px 0px 0px;
 }
 
+#container #digital-performance h2 {
+        font-family: 'dirty_headlineregular';
+}
+
 #container .digital-performance-link p {
 	font-family: 'Arial';	
 	font-size: 12px;
 }
+
+#container #cultivating-culture .left-block {
+	float: left;
+	width: 460px;
+	font-family: "dk_crayon_crumbleregular";
+	font-size: 22px;
+	color: #d2d2d2;
+	padding-left: 10px;
+}
+
+#container #cultivating-culture .right-block {
+	float: left;
+	width: 480px;
+	color: #2aa2bd;
+	font-family: 'kg_ten_thousand_reasonsRg';
+	font-size: 14px;
+        padding-left: 70px;
+}
+
+#container #cultivating-culture p {
+	margin: 5px 0px 0px 0px;
+}
+
+#container #cultivating-culture h2 {
+        font-family: 'dirty_headlineregular';
+}
+
+#container .cultivating-culture-link p {
+	font-family: 'Arial';	
+	font-size: 12px;
+}
+
 
 .powering-solutions-popup {
 	background: url('../img/ipg/categories-sprite.png') -1310px -10px no-repeat;
@@ -467,6 +515,8 @@ div.center {
 
 .sep-line {
 	padding: 15px 0 15px 10px;
+        height: 24px;
+        width: 1000px;
 }
 
 .clear {
@@ -487,6 +537,8 @@ div.center {
 
 .sep-block img {
 	padding: 0 10px 20px 20px;
+        /*height: 850px;
+        width: 40px;*/
 }
 
 div.submission-form {
@@ -801,14 +853,132 @@ div.submission-form {
 
 #judging-container h1
 {
-	font-size: 24px;
+	font-size: 40px;
 }
 
 #judging-container .top p {
-	font-size: 22px;
+	font-size: 28px;
 	padding-top: 5px;
 }
 
 #categories-container h2 a {
     text-decoration: none;
+}
+
+#submission-msg-home {
+        float: right;
+        line-height: 34px;
+        margin-right: 150px;
+        /*margin-top: 150px;*/
+        text-align: center;
+}
+
+.judging-members {
+        height: 150px; 
+        background: url('/img/ipg/judging-sprite-2014.png') no-repeat scroll 70px -461px rgba(0, 0, 0, 0); 
+        background-size: 90%;
+        width: 990px; 
+}
+
+#container #pioneering-solutions .left-block, #container #ambitiously-driving .left-block {
+    float: left;
+    padding-left: 10px;
+    width: 460px;
+}
+
+#container #pioneering-solutions .right-block, #container #ambitiously-driving .right-block {
+    float: left;
+    padding-left: 30px;
+    width: 480px;
+}
+
+#criteria-container {
+        background-color: #ffffff;
+        border: 10px solid #85C657;
+        border-radius: 15px;
+        color: #000000;
+        min-width: 550px;
+        max-width: 600px;
+        min-height: 375px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#criteria-container .category-header {
+        font-family: 'dirty_headlineregular';
+        font-size: 24px;
+        text-align: center;
+        padding: 10px 10px 0;
+}
+
+#criteria-container .sub-header {
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 10px 0;
+}
+
+#criteria-container .criteria {
+        width: 450px;
+        margin: 5px auto 5px auto;
+}
+
+#criteria-container .criteria p.detail {
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 7px;
+}
+
+#criteria-container .criteria p.header {
+        font-size: 14px;
+        padding-bottom: 5px;
+}
+
+#criteria-container .criteria-notes {
+        font-size: 12px;
+        width: 500px;
+        margin: 5px auto 5px auto;
+        text-align: justify;
+        padding-bottom: 15px;
+}
+
+#criteria-container .general-expectations {
+        background-color: #7FCDFE;
+        border-radius: 10px;
+        width: 500px;
+        min-height: 175px;
+        margin: 5px auto 5px auto;
+}
+
+#criteria-container .general-expectations .header {
+        font-family: 'dirty_headlineregular';
+        font-size: 24px;
+        text-align: center;
+        padding: 10px 10px 0;
+}
+
+#criteria-container .general-expectations p {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px 10px 5px 50px;
+        text-align: justify;
+}
+
+#criteria-container .criteria-box {
+        position: absolute; 
+        margin-left: 325px; 
+        margin-top: -5px;
+}
+
+#criteria-container .note-for-english {
+        font-size: 12px;
+        padding: 25px 0 25px 75px;
+}
+
+#criteria-container .close-button {
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #85C657;
+        padding: 5px 0 3px;
+        cursor: pointer;
 }
