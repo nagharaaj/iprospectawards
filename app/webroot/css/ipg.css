@@ -375,7 +375,7 @@ div.center {
 }
 
 #categories-container h2 {
-	font-size: 36px;
+	font-size: 31px;
 	color: #fff;
 	font-weight: normal;
 	margin-bottom: 15px;
@@ -408,8 +408,8 @@ div.center {
 	width: 1000px;
 	margin: 0px auto 0 auto;
 	color: #009bc9;
-	font-family: "kg_ten_thousand_reasonsRg";
-	font-size: 14px;
+	font-family: "dk_crayon_crumbleregular";
+	font-size: 22px;
 }
 
 #container #ambitiously-driving-link {
@@ -449,8 +449,8 @@ div.center {
 	float: left;
 	width: 480px;
 	color: #f6696f;
-	font-family: 'kg_ten_thousand_reasonsRg';
-	font-size: 14px;
+	font-family: 'dk_crayon_crumbleregular';
+	font-size: 22px;
         padding-left: 70px;
 }
 
@@ -480,8 +480,8 @@ div.center {
 	float: left;
 	width: 480px;
 	color: #2aa2bd;
-	font-family: 'kg_ten_thousand_reasonsRg';
-	font-size: 14px;
+	font-family: 'dk_crayon_crumbleregular';
+	font-size: 22px;
         padding-left: 70px;
 }
 
