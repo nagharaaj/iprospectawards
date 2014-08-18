@@ -1,11 +1,13 @@
 <script type="text/javascript">
-	$(['../../img/ipg/pioneering-popup.png','../../img/ipg/ambitiously-popup.png','../../img/ipg/digital-popup.png','../../img/ipg/cultivating-popup.png']).preload();
+	$(['../../img/ipg/pioneering-popup2.png','../../img/ipg/ambitiously-popup2.png','../../img/ipg/digital-popup2.png','../../img/ipg/cultivating-popup2.png']).preload();
 </script>
 <div class="submission-form">
-	<?php echo $this->element($header); ?>
+        <h1 class="white <?php echo (($header == 'pioneering') ? 'orange-shadow' : (($header == 'ambitiously' || $header == 'service') ? 'blue-shadow' : (($header == 'digital') ? 'green-shadow' : 'red-shadow'))); ?> dirty-headline"><?php echo $category; ?></h1>
+        <p class="submission-popup-container"><a class="<?php echo $header?> submission-criteria-link" category="<?php echo $category; ?>" style="cursor: pointer"></a>
 	<?php echo $this->Form->create('Submission', array('url' => '/submission/form1/'.$header, 'type' => 'file')); ?>
+        <?php echo $this->Form->hidden('header', array('value' => $header)); ?>
 	<p class="solid-sep"><img src="../../img/ipg/solid_sep.png" /></p>
-	<h2><img src="../../img/ipg/about-you-header.png" /></h2>
+	<h2>About You</h2>
 	<div id="form-top">
 		<?php echo $this->Form->input('first_name', array('label' => 'First Name:')); ?>
 		<?php echo $this->Form->input('last_name', array('label' => 'Last Name:')); ?>
@@ -14,8 +16,32 @@
 		<?php echo $this->Form->input('country', array('label' => 'Country:')); ?>
 	</div>
 	<p class="dashed-sep"><img src="../../img/ipg/dashed_sep.png" /></p>
-	<h2><img src="../../img/ipg/about-submission-header.png" /></h2>
+	<h2>About the Submission</h2>
 	<div id="form-middle">
+        <?php if($header == 'pioneering') :?>
+                <p>Budget</p>
+                <div id="radio"><?php echo $this->Form->radio('budget', array('larger' => 'Larger Budget: <span>Entry must meet the criteria above and the client must have monthly billings of $350,000 or more (>$350k)</span>', 'smaller' => 'Smaller Budget: <span>Entry must meet the criteria above and the client must have monthly billings of $350,000 or less (<$350k)</span>'), array('legend' => false, 'separator' => '<br />', 'hiddenField' => false)); ?>
+                        <?php echo $this->Form->error('budget');?>
+                </div>
+        <?php endif; ?>
+        <?php if($header == 'digital') :?>
+                <p>Scale</p>
+                <div id="radio"><?php echo $this->Form->radio('scale', array('larger' => 'Larger Scale: <span>Entry must include work in two(2), three(3) or four(4) active markets and must be specific to iProspect offices (not DAN Operating Model)</span>', 'smaller' => 'Smaller Scale: <span>Entry must include work at least five(5) or more active markets and must be specific to iProspect offices (not DAN Operating Model)</span>'), array('legend' => false, 'separator' => '<br />', 'hiddenField' => false)); ?>
+                        <?php echo $this->Form->error('scale');?>
+                </div>
+        <?php endif; ?>
+        <?php if($header == 'vertical') :?>
+                <p>Vertical</p>
+                <div id="radio"><?php echo $this->Form->radio('vertical', array('finance' => 'Finance/Insurance: <span>Entry should be for a client within the Finance/Insurance vertical and are not restricted to a particular service or market deployment</span>', 'b2b' => 'B2B: <span>Entry should be for a client within the B2B vertical and are not restricted to a particular service or market deployment</span>'), array('legend' => false, 'separator' => '<br />', 'hiddenField' => false)); ?>
+                        <?php echo $this->Form->error('vertical');?>
+                </div>
+        <?php endif; ?>
+        <?php if($header == 'service') :?>
+                <p>Service</p>
+                <div id="radio"><?php echo $this->Form->radio('service', array('mobile' => 'Mobile: <span>Entry should emphasize the successful use of Mobile, even if the other service lines are noted within the submission</span>', 'content' => 'Content Generation: <span>Entry should emphasize the successful use of Content Generation, even if the other service lines are noted within the submission</span>'), array('legend' => false, 'separator' => '<br />', 'hiddenField' => false)); ?>
+                        <?php echo $this->Form->error('service');?>
+                </div>
+        <?php endif; ?>
 		<?php echo $this->Form->input('client_name', array('label' => 'Client Name')); ?>
 		<p>Service Line Used <span class="small">(Check all that apply)</span></p>
 		<div id="checkboxes">
@@ -50,9 +76,9 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		<h2><img src="../../img/ipg/word-submission-header.png" /> <span class="small white">(Required)</span></h2>
+		<h2>Word Submission <span class="small white">(Required)</span></h2>
 		<div id="no-more" class="indent">
-			<p><a href="../../<?php echo strtoupper($header); ?>-FORMAT.doc" class="blue"><img src="../../img/ipg/form1-submission-details.png" /></a></p>
+			<p>No more than 400 words in total and 100 per section are allowed. Entries will only be accepted via the following entry fields, but should you need a template, you can <a href="../../<?php echo strtoupper($header); ?>-FORMAT.doc" class="blue">download the format guide here.</a></p>
 		</div>
 		<?php if ($this->Form->isError('word_submission')): ?>
 			<?php echo $this->Form->error('word_submission'); ?>
@@ -61,27 +87,27 @@
 			<div class="overall-container">
 				<p class="textarea-label">Overall Summary <span class="arial font-10">(brief summarization of the featured submission)</span></p>
 				<?php echo $this->Form->textarea('overall_summary', array('error' => false)); ?>
-				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
+				<p class="arial right font-12 italic">Max word count: 100</p>
 			</div>
 			<div class="challenge-container">
 				<p class="textarea-label">Challenge/Objective <span class="arial font-10">(what were you trying to achieve for the client or what obstacle did they need you to overcome)</span></p>
 				<?php echo $this->Form->textarea('challenge', array('error' => false)); ?>
-				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
+				<p class="arial right font-12 italic">Max word count: 100</p>
 			</div>
 			<div class="strategy-container">
 				<p class="textarea-label">Strategy/Tactics <span class="arial font-10">(share more than just the services employed...share your strategic process)</span></p>
 				<?php echo $this->Form->textarea('strategy', array('error' => false)); ?>
-				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
+				<p class="arial right font-12 italic">Max word count: 100</p>
 			</div>
 			<div class="result-container">
 				<p class="textarea-label">Results/Solutions <span class="arial font-10">(what success did you bring to your client)</span></p>
 				<?php echo $this->Form->textarea('results', array('error' => false)); ?>
-				<p class="arial right font-12 italic">Word Count: <span class="count">0</span> / Max word count: 150</p>
+				<p class="arial right font-12 italic">Max word count: 100</p>
 			</div>
 		</div>
 		
 		<div class="files-container">
-			<h2><img src="../../img/ipg/visual-header.png" /> <span class="small white">(required to submit at least one visual)</span></h2>
+			<h2>Visual Representation <span class="small white">(required to submit at least one visual)</span></h2>
 			<p class="solid-sep"><img src="../../img/ipg/solid_sep.png" /></p>
 			<?php if ($this->Form->isError('files_submission')): ?>
 				<?php echo $this->Form->error('files_submission'); ?>
@@ -98,34 +124,28 @@
 	
 	<?php echo $this->Form->end(); ?>
 </div>
+<script lang="javascript">
+        $('.submission-criteria-link').click(function () {
+                var category = $(this).attr('category');
 
-<script type="text/javascript">
-var $limitWords = 175;
-
-$("#SubmissionOverallSummary, #SubmissionChallenge, #SubmissionStrategy, #SubmissionResults").each(function(e) {
-	$this = $(this);
-	wordCount($this);
-});
-
-$("#SubmissionOverallSummary, #SubmissionChallenge, #SubmissionStrategy, #SubmissionResults").keyup(function(e) {
-    $this = $(this);
-	wordCount($this);    
-});
-
-function wordCount( $this )
-{
-	var wordcount = $this.val().split(/\b[\s,\.-:;]*/).length;
-	
-	if ($this.val() == '') {
-		wordcount = 0;
-	}
-	
-    if (wordcount > $limitWords) {
-        $this.addClass('error-bg');
-    } else {
-        $this.removeClass('error-bg');
-    }
-    
-    $this.parent().find('.count').html(wordcount);
-}
+                $.fancybox.open({
+                        maxWidth    : 1077,
+                        maxHeight   : 750,
+                        fitToView   : false,
+                        autoSize    : false,
+                        height      : 'auto',
+                        width       : 'auto',
+                        closeClick  : false,
+                        closeBtn    : false,
+                        openEffect  : 'none',
+                        closeEffect : 'none',
+                        href        : '/submission/submission_criteria/category/' + encodeURIComponent(category),
+                        type        : 'ajax',
+                        afterShow   : function() {
+                                $('.close-button').bind("click", function (event) {
+                                        $.fancybox.close();
+                                });
+                        }
+                });
+        });
 </script>

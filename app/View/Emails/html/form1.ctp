@@ -33,6 +33,26 @@
 <?php echo ((isset($data['Submission']['other_text']) && !empty($data['Submission']['other_text']))?'Other: '.$data['Submission']['other_text'].'<br />':''); ?>
 </p>
 
+<?php if ($type == 'pioneering' && !empty($data['Submission']['budget'])) { ?>
+<p><strong>Budget:</strong><br />
+<?php echo ucfirst($data['Submission']['budget']) . ' Budget'; ?></p>
+<?php } ?>
+
+<?php if ($type == 'digital' && !empty($data['Submission']['scale'])) { ?>
+<p><strong>Scale:</strong><br />
+<?php echo ucfirst($data['Submission']['scale']) . ' Scale'; ?></p>
+<?php } ?>
+
+<?php if ($type == 'vertical' && !empty($data['Submission']['vertical'])) { ?>
+<p><strong>Vertical Spotlight:</strong><br />
+<?php echo (($data['Submission']['vertical'] == 'finance') ? 'Finance/Insurance' : (($data['Submission']['vertical'] == 'b2b') ? 'B2B' : '')); ?></p>
+<?php } ?>
+
+<?php if ($type == 'service' && !empty($data['Submission']['service'])) { ?>
+<p><strong>Service Spotlight:</strong><br />
+<?php echo (($data['Submission']['service'] == 'mobile') ? 'Mobile' : (($data['Submission']['service'] == 'content') ? 'Content Generation' : '')); ?></p>
+<?php } ?>
+
 <?php if (!empty($data['Submission']['overall_summary'])): ?>
 <p><strong>Overall Summary:</strong><br />
 <?php echo nl2br($data['Submission']['overall_summary']); ?></p>

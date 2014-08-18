@@ -49,13 +49,65 @@ class Submission extends AppModel {
         )
     );
     
+    public $budget = array(
+        'budget' => array(
+                        'allowEmpty' => false,
+                        'required' => true,
+            'rule'    => array('minLength', '1'),
+            'message' => 'Select budget size larger or smaller'
+        )
+    );
+
+    public $scale = array(
+        'scale' => array(
+                        'allowEmpty' => false,
+                        'required' => true,
+            'rule'    => array('minLength', '1'),
+            'message' => 'Select scale larger or smaller'
+        )
+    );
+
+    public $vertical = array(
+        'vertical' => array(
+                        'allowEmpty' => false,
+                        'required' => true,
+            'rule'    => array('minLength', '1'),
+            'message' => 'Select Vertical Spotlight'
+        )
+    );
+
+    public $service = array(
+        'service' => array(
+                        'allowEmpty' => false,
+                        'required' => true,
+            'rule'    => array('minLength', '1'),
+            'message' => 'Select Service Spotlight'
+        )
+    );
+
     public function beforeValidate()
     {
-    	if (!empty($this->data[$this->name][strtolower($this->name)]['other']))
+    	if (!empty($this->data[$this->name]['other']))
     	{
     		$this->validate = array_merge($this->validate, $this->other);
     	}
-    	
+        
+        if ($this->data[$this->name]['header'] == 'pioneering') {
+                $this->validate = array_merge($this->validate, $this->budget);
+        }
+
+        if ($this->data[$this->name]['header'] == 'digital') {
+                $this->validate = array_merge($this->validate, $this->scale);
+        }
+
+        if ($this->data[$this->name]['header'] == 'vertical') {
+                $this->validate = array_merge($this->validate, $this->vertical);
+        }
+
+        if ($this->data[$this->name]['header'] == 'service') {
+                $this->validate = array_merge($this->validate, $this->service);
+        }
+        
     	if (
     		empty($this->data[$this->name]['overall_summary']) && 
     		empty($this->data[$this->name]['challenge']) &&
@@ -66,16 +118,6 @@ class Submission extends AppModel {
     		$this->invalidate('word_submission', 'You must fill out at least one word submission');
     	}
 
-        if (
-            str_word_count($this->data[$this->name]['overall_summary']) > 175 ||
-            str_word_count($this->data[$this->name]['challenge']) > 175 ||
-            str_word_count($this->data[$this->name]['strategy']) > 175 ||
-            str_word_count($this->data[$this->name]['results'])  > 175
-        )
-        {
-            $this->invalidate('word_submission', 'You have entered more than 175 words in a submission');
-        }
-    	
     	if(
 	    	empty($this->data[$this->name]['storyboard']['tmp_name']) && 
 	    	empty($this->data[$this->name]['ppt']['tmp_name']) && 

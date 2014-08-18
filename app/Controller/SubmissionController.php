@@ -7,6 +7,14 @@ App::import('Vendor', 'Uploader.Uploader');
 class SubmissionController extends AppController
 {
 	public $uses = array('Submission', 'Cultivate');
+        public $categories = array(
+            'pioneering' => 'Pioneering Solutions that Drive Industry Leading Results',
+            'ambitiously' => 'Ambitiously Driving the Dentsu Aegis Operating Model',
+            'digital' => 'Multi-Market Digital Performance',
+            'cultivating' => 'Cultivating Culture',
+            'vertical' => 'Vertical Spotlight',
+            'service' => 'Service Spotlight'
+        );
 	
 	public function beforeRender()
 	{
@@ -46,6 +54,7 @@ class SubmissionController extends AppController
 		}
 		
 		$this->set('header', $header);
+                $this->set('category', $this->categories[$header]);
 	}
 	
 	public function form2($header)
@@ -76,10 +85,38 @@ class SubmissionController extends AppController
 		}
 		
 		$this->set('header', $header);
+                $this->set('category', $this->categories[$header]);
 	}
 	
 	public function success()
 	{
 		
 	}
+        
+        public function submission_criteria() {
+                $this->layout = 'ajax';
+                $requestVars = $this->parseRequestVars();
+
+                $this->set('title_for_layout', 'IPG Awards - Categories Submission Criteria');
+		if (isset($requestVars['category'])) {
+                        $this->set('category', $requestVars['category']);
+                } else {
+                        $this->set('category', null);
+                }
+        }
+        
+        public function parseRequestVars()
+        {
+            $requestVars = array();
+
+            if (isset($this->params['pass']) && !empty($this->params['pass']))
+            {
+                for ($i = 0; $i < count($this->params['pass']); $i = $i+2 )
+                {
+                    $requestVars[$this->params['pass'][$i]] = $this->params['pass'][$i+1];
+                }
+            }
+
+            return $requestVars;
+        }
 }

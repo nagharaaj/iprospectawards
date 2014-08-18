@@ -41,7 +41,7 @@
                         <p>• Results should not be mediocre. Share results that are out of this world!</p>
                 </div>
         </div>
-        <div class="criteria-box"><img src="../img/ipg/criteria-box.png" /></div>
+        <div class="criteria-box"><img src="../../img/ipg/criteria-box.png" /></div>
         <div class="note-for-english">English only for all Submission Materials</div>
 
         <div class="close-button">Close</div>
