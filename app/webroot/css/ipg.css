@@ -1031,3 +1031,10 @@ div.submission-form {
         padding: 5px 0 3px;
         cursor: pointer;
 }
+
+.awards-header {
+        color: #FFFFFF;
+        font-family: 'dirty_headlineregular';
+        font-size: 50px;
+        text-align: center;
+}

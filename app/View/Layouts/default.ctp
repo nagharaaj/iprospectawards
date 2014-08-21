@@ -35,6 +35,9 @@
 		</div>
                 <div class="<?php echo (isset($home)?'push-arrows':'push');?>"></div>
 	</div>
+        <?php if (isset($home)): ?>
+            <div class="right push-arrows"></div>
+	<?php endif; ?>
 	<div class="footer">
 		<div class="wrapper">
 			<div class="left"><a id="footer-logo" href="/"></a></div>

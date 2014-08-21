@@ -15,24 +15,6 @@
 <p><strong>Country:</strong><br />
 <?php echo $data['Submission']['country']; ?></p>
 
-<p><strong>Client Name:</strong><br />
-<?php echo $data['Submission']['client_name']; ?></p>
-
-<p><strong>Service Lines Used:</strong><br />
-<?php echo ((isset($data['Submission']['seo']) && !empty($data['Submission']['seo']))?'SEO<br />':''); ?>
-<?php echo ((isset($data['Submission']['ppc_sem_sea']) && !empty($data['Submission']['ppc_sem_sea']))?'PPC/SEM/SEA<br />':''); ?>
-<?php echo ((isset($data['Submission']['mobile']) && !empty($data['Submission']['mobile']))?'Mobile<br />':''); ?>
-<?php echo ((isset($data['Submission']['video']) && !empty($data['Submission']['video']))?'Video<br />':''); ?>
-<?php echo ((isset($data['Submission']['structured_data']) && !empty($data['Submission']['structured_data']))?'Structured Data<br />':''); ?>
-<?php echo ((isset($data['Submission']['social_platform_management']) && !empty($data['Submission']['social_platform_management']))?'Social Platform Management<br />':''); ?>
-<?php echo ((isset($data['Submission']['display_advertising']) && !empty($data['Submission']['display_advertising']))?'Display Advertising<br />':''); ?>
-<?php echo ((isset($data['Submission']['analytics_and_analysis']) && !empty($data['Submission']['analytics_and_analysis']))?'Analytics and Analysis<br />':''); ?>
-<?php echo ((isset($data['Submission']['content_generation']) && !empty($data['Submission']['content_generation']))?'Content Generation<br />':''); ?>
-<?php echo ((isset($data['Submission']['affiliate_program_management']) && !empty($data['Submission']['affiliate_program_management']))?'Affiliate Program Management<br />':''); ?>
-<?php echo ((isset($data['Submission']['conversion_optimization']) && !empty($data['Submission']['conversion_optimization']))?'Conversion Optimization<br />':''); ?>
-<?php echo ((isset($data['Submission']['other_text']) && !empty($data['Submission']['other_text']))?'Other: '.$data['Submission']['other_text'].'<br />':''); ?>
-</p>
-
 <?php if ($type == 'pioneering' && !empty($data['Submission']['budget'])) { ?>
 <p><strong>Budget:</strong><br />
 <?php echo ucfirst($data['Submission']['budget']) . ' Budget'; ?></p>
@@ -52,6 +34,24 @@
 <p><strong>Service Spotlight:</strong><br />
 <?php echo (($data['Submission']['service'] == 'mobile') ? 'Mobile' : (($data['Submission']['service'] == 'content') ? 'Content Generation' : '')); ?></p>
 <?php } ?>
+
+<p><strong>Client Name:</strong><br />
+<?php echo $data['Submission']['client_name']; ?></p>
+
+<p><strong>Service Lines Used:</strong><br />
+<?php echo ((isset($data['Submission']['seo']) && !empty($data['Submission']['seo']))?'SEO<br />':''); ?>
+<?php echo ((isset($data['Submission']['ppc_sem_sea']) && !empty($data['Submission']['ppc_sem_sea']))?'PPC/SEM/SEA<br />':''); ?>
+<?php echo ((isset($data['Submission']['mobile']) && !empty($data['Submission']['mobile']))?'Mobile<br />':''); ?>
+<?php echo ((isset($data['Submission']['video']) && !empty($data['Submission']['video']))?'Video<br />':''); ?>
+<?php echo ((isset($data['Submission']['structured_data']) && !empty($data['Submission']['structured_data']))?'Structured Data<br />':''); ?>
+<?php echo ((isset($data['Submission']['social_platform_management']) && !empty($data['Submission']['social_platform_management']))?'Social Platform Management<br />':''); ?>
+<?php echo ((isset($data['Submission']['display_advertising']) && !empty($data['Submission']['display_advertising']))?'Display Advertising<br />':''); ?>
+<?php echo ((isset($data['Submission']['analytics_and_analysis']) && !empty($data['Submission']['analytics_and_analysis']))?'Analytics and Analysis<br />':''); ?>
+<?php echo ((isset($data['Submission']['content_generation']) && !empty($data['Submission']['content_generation']))?'Content Generation<br />':''); ?>
+<?php echo ((isset($data['Submission']['affiliate_program_management']) && !empty($data['Submission']['affiliate_program_management']))?'Affiliate Program Management<br />':''); ?>
+<?php echo ((isset($data['Submission']['conversion_optimization']) && !empty($data['Submission']['conversion_optimization']))?'Conversion Optimization<br />':''); ?>
+<?php echo ((isset($data['Submission']['other_text']) && !empty($data['Submission']['other_text']))?'Other: '.$data['Submission']['other_text'].'<br />':''); ?>
+</p>
 
 <?php if (!empty($data['Submission']['overall_summary'])): ?>
 <p><strong>Overall Summary:</strong><br />
