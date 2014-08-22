@@ -130,7 +130,10 @@ a img {
 }
 
 .footer {
-	background: url('../img/ipg/footer-bg.png') repeat-x;
+	background-image: url('../img/ipg/footer-bg.png');
+        background-repeat: repeat-x;
+        min-width: 1020px;
+        vertical-align: bottom;
 }
 
 #content #main-image-wrapper {
@@ -152,7 +155,7 @@ a img {
 .footer .wrapper .left #footer-logo {
 	background: url('../img/ipg/home-spritemap.png') -75px -550px no-repeat;
 	width: 310px;
-	height: 135px;
+	height: 134px;
 	display: block;
 }
 
