@@ -26,11 +26,15 @@ class SubmissionController extends AppController
 	public function index()
 	{
 		$this->set('title_for_layout', 'IPG Awards - Submission');
+                
+                $this->redirect(array('action' => 'closure'));
 	}
 	
 	public function form1($header)
 	{
 		$this->set('title_for_layout', 'IPG Awards - Submission - '.ucfirst($header));
+                
+                $this->redirect(array('action' => 'closure'));
 
 		if ($this->request->is('post'))
 		{
@@ -63,7 +67,9 @@ class SubmissionController extends AppController
 	
 	public function form2($header)
 	{
-		 $this->set('title_for_layout', 'IPG Awards - Submission - '.ucfirst($header));
+                $this->set('title_for_layout', 'IPG Awards - Submission - '.ucfirst($header));
+                
+                $this->redirect(array('action' => 'closure'));
 
 		if ($this->request->is('post'))
 		{
@@ -248,4 +254,9 @@ class SubmissionController extends AppController
 
             return $requestVars;
         }
+        
+        public function closure()
+	{
+		$this->set('title_for_layout', 'IPG Awards - Submission');
+	}
 }
