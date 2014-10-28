@@ -5,5 +5,6 @@ app/tmp/logs/*
 app/tmp/sessions/*
 app/tmp/tests/*
 .idea/*
-app/webroot/files/*
+app/webroot/files/uploads/*
+app/webroot/files/awards/*
 app/webroot/downloads/*
