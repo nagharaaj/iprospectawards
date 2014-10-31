@@ -404,7 +404,6 @@ div.center {
 
 #container #pioneering-solutions {
 	width: 1000px;
-	margin: 20px auto 0 auto;
 	font-family: "dk_crayon_crumbleregular";
 	color: #c06823;
 	font-size: 22px;
@@ -423,11 +422,14 @@ div.center {
 
 #container #pioneering-solutions h2 {
         font-family: 'dirty_headlineregular';
+        color: #FFFFFF;
+        font-size: 31px;
+        font-weight: normal;
 }
 
 #container #ambitiously-driving {
 	width: 1000px;
-	margin: 0px auto 0 auto;
+	margin: 20px auto 0 auto;
 	color: #009bc9;
 	font-family: "dk_crayon_crumbleregular";
 	font-size: 22px;
@@ -446,6 +448,9 @@ div.center {
 
 #container #ambitiously-driving h2 {
         font-family: 'dirty_headlineregular';
+        color: #FFFFFF;
+        font-size: 31px;
+        font-weight: normal;
 }
 
 #container #digital-performance {
@@ -454,7 +459,6 @@ div.center {
 	font-family: Arial;
 	font-size: 12px;
 	color: #fff;
-	padding-bottom: 115px;
 }
 
 #container #digital-performance .left-block {
@@ -481,6 +485,9 @@ div.center {
 
 #container #digital-performance h2 {
         font-family: 'dirty_headlineregular';
+        color: #FFFFFF;
+        font-size: 31px;
+        font-weight: normal;
 }
 
 #container .digital-performance-link p {
@@ -512,11 +519,39 @@ div.center {
 
 #container #cultivating-culture h2 {
         font-family: 'dirty_headlineregular';
+        color: #FFFFFF;
+        font-size: 31px;
+        font-weight: normal;
 }
 
 #container .cultivating-culture-link p {
 	font-family: 'Arial';	
 	font-size: 12px;
+}
+
+#container #service-spotlight h2 {
+        font-family: 'dirty_headlineregular';
+        color: #FFFFFF;
+        font-size: 31px;
+        font-weight: normal;
+}
+
+#container #vertical-spotlight h2 {
+        font-family: 'dirty_headlineregular';
+        color: #FFFFFF;
+        font-size: 31px;
+        font-weight: normal;
+}
+
+#container #grand-prix {
+       	padding-bottom: 115px;
+}
+
+#container #grand-prix h2 {
+        font-family: 'dirty_headlineregular';
+        color: #FFFFFF;
+        font-size: 31px;
+        font-weight: normal;
 }
 
 
