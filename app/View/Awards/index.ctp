@@ -22,7 +22,7 @@
 <div id="digital-performance">
         <h2><a class="green-shadow">Multi-Market Digital Performance (Larger)</a></h2><br/>
         <p style="font-family:dk_crayon_crumbleregular; font-size:22px; color:#85c657;">
-                Gold – Hong Kong – Hilton Worldwide <a href="/downloads/2014/IP-awards-Hilton-Display-PPT1.mp4" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
+                Gold – Hong Kong – Hilton Worldwide <a href="/downloads/2014/IP-awards-Hilton-Display-PPT.mp4" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
                 Silver – Hong Kong – Marina Bay Sands <a href="/downloads/2014/MBS-award2.mp4" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
                 Bronze – Spain - Coca–Cola <a href="/downloads/2014/motiongraphics-iprospect.mov" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
                 Honorable Mention - Denmark - iProspect <a href="/downloads/2014/IPG-Awards2014-iProspect-Germany-Parrot-.jpg" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
@@ -43,7 +43,7 @@
         <p>
                 Gold – United States – Hilton Worldwide <a href="/downloads/2014/2014-Hilton-FlightCancellation.mp4" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
                 Silver – India - Cleartrip <a href="/downloads/2014/pioneering-large-Silver-India-Cleartrip.zip" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
-                Bronze – Italy - Allianz <a href="/downloads/2014/iProspect-Italy-Allianz-fullHd1.mp4" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
+                Bronze – Italy - Allianz <a href="/downloads/2014/iProspect-Italy-Allianz-fullHd.mp4" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
                 Honorable Mention - United States - Sears <a href="/downloads/2014/iprospect-ipgawards2014-IPG-Sears-copy.pdf" style="color:#ffffff; text-decoration:none;">(download)</a><br/>
         </p>
 </div>
