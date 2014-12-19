@@ -42,9 +42,9 @@
 		<div class="wrapper">
 			<div class="left"><a id="footer-logo" href="/"></a></div>
 			<?php if (isset($home)): ?>
-				<!--<div class="right"><a id="footer-button" href="/submission"></a>
+				<div class="right"><a id="footer-button" href="/submission"></a>
                                         <div style="text-align: center;">Enter by Sept 19th!</div>
-                                </div>-->
+                                </div>
 			<?php endif; ?>
 		</div>
 	</div>
